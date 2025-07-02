@@ -1,0 +1,565 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vampires_cookbook"
+	group: "6ACD28698B988220"
+	icon: {
+		Count: 1
+		id: "minecraft:written_book"
+		tag: {
+			AntiqueInk: 1b
+			author: "Cheferatu"
+			display: {
+				Lore: ["[\"\",{\"text\":\"It's a cookbook!\",\"italic\":false,\"color\":\"white\"}]"]
+				Name: "[\"\",{\"text\":\"To Serve Man\",\"italic\":false,\"color\":\"red\"}]"
+			}
+			generation: 3
+			pages: [
+				"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"text\":\"To \"},{\"color\":\"dark_red\",\"insertion\":\"animandan\",\"clickEvent\":{\"action\":\"suggest_command\",\"value\":\"/tell animandan \"},\"hoverEvent\":{\"action\":\"show_entity\",\"contents\":{\"type\":\"minecraft:player\",\"id\":\"98feea67-d965-4233-b106-fd482ad87b2f\",\"name\":{\"text\":\"animandan\"}}},\"extra\":[{\"text\":\"animandan\"}],\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"\\nI hope you enjoy these recipes as much as I did.\\n\\nLove,\\nYour Gruncle Vlad\"}],\"text\":\"\"}"
+				"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"text\":\"(Check your quest book)\"}"
+			]
+			resolved: 1b
+			title: "To Serve Man"
+		}
+	}
+	id: "63A5D10D86A18BFD"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1A2702FA5DD5FFE5"]
+			id: "3A4EFF59F6978215"
+			tasks: [{
+				id: "5049C56C6870A6EC"
+				item: "vampiresdelight:blood_syrup"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3A4EFF59F6978215"]
+			id: "7582B26310167B6D"
+			tasks: [{
+				id: "5139430C787F8E76"
+				item: "vampiresdelight:blood_dough"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7582B26310167B6D"]
+			id: "45FAB613382E3005"
+			tasks: [{
+				id: "7BF898A629A2249F"
+				item: "vampiresdelight:blood_bagel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["45FAB613382E3005"]
+			id: "038655A329B23EDD"
+			rewards: [{
+				command: "/titles add {p} titles:vampire_gourmond"
+				console: true
+				elevate_perms: true
+				icon: "titles:title_scroll_uncommon"
+				id: "1F8B287C17541E07"
+				title: "&eUnlock Title:&r Vampire Gourmond"
+				type: "command"
+			}]
+			subtitle: "A bloody good breakfast!"
+			tasks: [{
+				id: "2D9FA89A48159D94"
+				item: "vampiresdelight:bagel_sandwich"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45FAB613382E3005"]
+			description: ["It really is cursed if you're making a cupcake out of a cooked bagel."]
+			id: "204C15C90F1E781E"
+			tasks: [{
+				id: "4078A2955398F687"
+				item: "vampiresdelight:cursed_cupcake"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B8FA69578B86A37"]
+			id: "01EEDD48391D1E88"
+			tasks: [{
+				id: "5A1517FB8D636C3B"
+				item: "vampiresdelight:blood_hot_dog"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A4EFF59F6978215"]
+			id: "5B8FA69578B86A37"
+			tasks: [{
+				id: "71546AA97661B624"
+				item: "vampiresdelight:blood_sausage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["664C513761CC4B0E"]
+			id: "1A2702FA5DD5FFE5"
+			tasks: [{
+				id: "309D673A40550BD9"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A4EFF59F6978215"]
+			id: "0B21712DE7D47D9A"
+			tasks: [{
+				id: "66DC5DD1AF503EA3"
+				item: "vampiresdelight:dark_ice_cream"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A4EFF59F6978215"]
+			id: "32DC505754AAAEEE"
+			tasks: [{
+				id: "78C10595EA03F45C"
+				item: {
+					Count: 1
+					id: "vampiresdelight:blood_wine_bottle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32DC505754AAAEEE"]
+			id: "26A8C25C03A4F5AA"
+			tasks: [{
+				id: "00C4187AD22A3470"
+				item: "vampiresdelight:blood_wine_glass"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["066935D1421CC217"]
+			id: "025168EE2F0E16E5"
+			tasks: [{
+				dimension: "mce:the_vampire_forest"
+				id: "4B5538EC4E7C0C8D"
+				type: "dimension"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["664C513761CC4B0E"]
+			id: "066935D1421CC217"
+			tasks: [{
+				count: 8L
+				id: "7146CD17BB0D0FE0"
+				item: { Count: 8, id: "vampirism:bloody_dark_stone_bricks" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["025168EE2F0E16E5"]
+			description: ["Don't right click the orchids!  The \"right click to harvest\" doesn't give you anything. You need to break them to pick them up."]
+			id: "20110C4554F4033E"
+			tasks: [{
+				id: "02AAF8C3E3AE28EA"
+				item: "vampirism:vampire_orchid"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20110C4554F4033E"]
+			id: "632C96815CFBE181"
+			tasks: [{
+				id: "3EDE12AA94BA985A"
+				item: "vampiresdelight:orchid_petals"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26A8C25C03A4F5AA"]
+			id: "2B5EABA6807FCF18"
+			tasks: [{
+				id: "252F09BE842951D7"
+				item: "vampiresdelight:mulled_wine_glass"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34B1C00F9AAE2671"]
+			id: "2EBE998F4F7818F1"
+			tasks: [{
+				id: "00EE10CEB440524C"
+				item: "vampiresdelight:eye_croissant"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34B1C00F9AAE2671"]
+			id: "70E2E347EE21EC98"
+			tasks: [{
+				id: "3AAED142D8E52759"
+				item: "vampiresdelight:eyes_on_stick"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20110C4554F4033E"]
+			description: ["Hoe some Cursed Dirt to plant the orchid seeds."]
+			id: "687CF279808979F4"
+			tasks: [
+				{
+					id: "6F8D2335FCF81556"
+					item: "vampirism:cursed_earth"
+					type: "item"
+				}
+				{
+					id: "5F0EF506916F483B"
+					item: "vampiresdelight:orchid_seeds"
+					type: "item"
+				}
+			]
+			title: "Orchid Seeds"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["632C96815CFBE181"]
+			id: "26797B79D6276164"
+			tasks: [{
+				id: "6FF213D3462E1293"
+				item: "vampiresdelight:orchid_tea"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["632C96815CFBE181"]
+			id: "0EDE4451D4401097"
+			tasks: [{
+				id: "4F5956ACC6A187E4"
+				item: "vampiresdelight:orchid_cookie"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["632C96815CFBE181"]
+			id: "2569AFC991BA000C"
+			tasks: [{
+				id: "4599610FA8BB5B07"
+				item: "vampiresdelight:orchid_eclair"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["632C96815CFBE181"]
+			id: "4E473F2788FDDDAE"
+			tasks: [{
+				id: "6B07DA42AFB117AE"
+				item: "vampiresdelight:orchid_ice_cream"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["632C96815CFBE181"]
+			id: "760B9BDD99EFC488"
+			tasks: [{
+				id: "190F8451CA654D51"
+				item: "vampiresdelight:orchid_cream_soup"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["632C96815CFBE181"]
+			id: "64D69ED761AA2C35"
+			tasks: [{
+				id: "019961238135E48A"
+				item: "vampiresdelight:orchid_curry"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["632C96815CFBE181"]
+			id: "6329C61CE71F5236"
+			tasks: [{
+				id: "2DC8232A5529BE32"
+				item: "vampiresdelight:orchid_cake"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			description: ["All of the food in this chapter can fill your blood bar."]
+			id: "664C513761CC4B0E"
+			invisible: true
+			tasks: [{
+				id: "529C96D17621CE91"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						AntiqueInk: 1b
+						author: "Cheferatu"
+						display: {
+							Lore: ["[\"\",{\"text\":\"It's a cookbook!\",\"italic\":false,\"color\":\"white\"}]"]
+							Name: "[\"\",{\"text\":\"To Serve Man\",\"italic\":false,\"color\":\"red\"}]"
+						}
+						generation: 3
+						pages: [
+							"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"text\":\"To \"},{\"color\":\"dark_red\",\"selector\":\"@s\"},{\"color\":\"dark_red\",\"text\":\"\\nI hope you enjoy these recipes as much as I did.\\n\\nLove,\\nYour Gruncle Vlad\"}],\"text\":\"\"}"
+							"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"text\":\"(Check your quest book)\"}"
+						]
+						title: "To Serve Man"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["664C513761CC4B0E"]
+			description: ["You can still eat normal foods to get extra hearts!"]
+			icon: "solcarrot:food_book"
+			id: "70DCF3EDC017EAE8"
+			rewards: [{
+				id: "36926AA4CE9CC44F"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C6B41EDC4E39A1B"
+				type: "checkmark"
+			}]
+			title: "Tip!"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A4EFF59F6978215"]
+			id: "3314DFAB618BB9DE"
+			tasks: [{
+				id: "7513A0637B29CB6A"
+				item: "vampiresdelight:blood_pie"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3A4EFF59F6978215"
+				"632C96815CFBE181"
+			]
+			id: "1679CC9A45A1C9FD"
+			tasks: [{
+				id: "69176AE98EE8EE58"
+				item: "vampiresdelight:tricolor_dango"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["025168EE2F0E16E5"]
+			id: "6810C8951945CA37"
+			tasks: [{
+				id: "4142E1D6F630577D"
+				item: "vampiresdelight:black_mushroom"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6810C8951945CA37"]
+			id: "5E967A827A180E0F"
+			tasks: [{
+				id: "029D23F6CABD6A00"
+				item: "vampiresdelight:black_mushroom_soup"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6810C8951945CA37"]
+			id: "0F34A72113C05CDD"
+			tasks: [{
+				id: "13D75E61F4665A94"
+				item: "vampiresdelight:black_mushroom_noodles"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["025168EE2F0E16E5"]
+			id: "52A3630923A752EA"
+			tasks: [{
+				id: "76C398FAB2C2300A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "vampirism:pure_blood"
+					}
+				}
+				title: "Any #vampirism:pure_blood"
+				type: "item"
+			}]
+			title: "Pure Blood"
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52A3630923A752EA"]
+			id: "3E47B000170678F0"
+			tasks: [{
+				id: "56BDD9A67E8B0CA7"
+				item: "vampiresdelight:pure_sorbet"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["52A3630923A752EA"]
+			description: ["Slices give sunscreen for 1 minute!"]
+			id: "19BD6C48E8D525D4"
+			tasks: [{
+				id: "22637427834BD594"
+				item: "vampiresdelight:weird_jelly_block"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["664C513761CC4B0E"]
+			description: [
+				"Put raw meat (multiple vanilla and modded meats work) or human hearts into a Blood Grinder to make impure blood.  Put it through a Blood Seive to purify it.  They can pull from tanks/inventories above them so it can be combined in this arrangement for automation.  Right with a bottle to get the blood out."
+				""
+				"{image:modpack:textures/autoblood.png width:462 height:624 align:center fit:true}"
+			]
+			id: "6C2F188312C7DED0"
+			rewards: [
+				{
+					id: "07FF919C2CE79CD8"
+					item: "vampirism:blood_container"
+					type: "item"
+				}
+				{
+					id: "212D8C4B13E3568A"
+					item: "vampirism:blood_sieve"
+					type: "item"
+				}
+			]
+			subtitle: "For Vampire Minions who can't suck blood."
+			tasks: [
+				{
+					id: "2B9458B71FED47B9"
+					item: "vampirism:blood_container"
+					type: "item"
+				}
+				{
+					id: "669F0D1E1C13FDB7"
+					item: "vampirism:blood_grinder"
+					type: "item"
+				}
+			]
+			title: "Blood from Meat"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["664C513761CC4B0E"]
+			description: ["Kill a Villager or Hunter with a Farmer's Delight Knife to get eyes."]
+			icon: "vampiresdelight:human_eye"
+			id: "34B1C00F9AAE2671"
+			tasks: [
+				{
+					id: "769B04E7A47D46DB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+					title: "Any #farmersdelight:tools/knives"
+					type: "item"
+				}
+				{
+					id: "425F4CBC636EFDE8"
+					item: "vampiresdelight:human_eye"
+					title: "Human Eye"
+					type: "item"
+				}
+			]
+			title: "Human Eye"
+			x: 9.0d
+			y: 4.0d
+		}
+	]
+	title: "&2Vampire's Cookbook"
+}
