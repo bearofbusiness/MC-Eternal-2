@@ -50,7 +50,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
 					console: true
 					elevate_perms: true
 					icon: "mekanism:cardboard_box"
@@ -60,7 +60,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
 					console: true
 					elevate_perms: true
 					icon: {
@@ -111,7 +111,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
 					console: true
 					icon: "etched:radio"
 					id: "2B26880DB70189CB"
@@ -120,7 +120,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
 					console: true
 					elevate_perms: true
 					icon: "kubejs:mossy_letter"
@@ -224,6 +224,25 @@
 					}
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Gruncle Vlad! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "3355346697CAE973"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "3F4DF0D157D587F8"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
 			]
 			shape: "heart"
 			subtitle: "&4You've got Mail!"
@@ -231,6 +250,7 @@
 				advancement: "vampirism:vampire/become_vampire"
 				criterion: ""
 				id: "3729DE257CBBB5D9"
+				title: "Become a Vampire"
 				type: "advancement"
 			}]
 			title: "&4Letter from Gruncle Vlad"
@@ -294,12 +314,32 @@
 					title: "Grandma's Love"
 					type: "custom"
 				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Grandma! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "235496D94F1A7F34"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "7680F846441F2853"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
 			]
 			shape: "heart"
 			subtitle: "{chapter.1.quest.60.subtitle}"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "5BF5D48A5BC23C93"
+				title: "Visit the Nether"
 				type: "dimension"
 			}]
 			title: "Letter from Grandma!"
@@ -344,12 +384,32 @@
 					title: "Grandma's Love"
 					type: "custom"
 				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Grandma! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "53EC069D4D9D9860"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "4ADF9B64B6E6822C"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
 			]
 			shape: "heart"
 			subtitle: "{chapter.1.quest.60.subtitle}"
 			tasks: [{
 				dimension: "the_bumblezone:the_bumblezone"
 				id: "5DCC2E2C67279BFA"
+				title: "Visit the Bumblezone"
 				type: "dimension"
 			}]
 			title: "Letter from Grandma!"
@@ -373,21 +433,43 @@
 			id: "07C48D5A4303F87F"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "339D3EBD090D56AC"
-				item: {
-					Count: 1
-					id: "rats:rat_papers"
-					tag: { }
+			rewards: [
+				{
+					id: "339D3EBD090D56AC"
+					item: {
+						Count: 1
+						id: "rats:rat_papers"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → YOU HAVE RECIEVED A VERY IMPORTANT AND URGENT LETTER! Open your Quest Book NOW!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "45400B505F330710"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "1C9841FF83FC91FB"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+			]
 			shape: "heart"
 			subtitle: "{chapter.1.quest.60.subtitle}"
 			tasks: [{
 				id: "7AD4522B096A8B97"
 				observe_type: 5
 				timer: 0L
+				title: "Witness a rat!"
 				to_observe: "rats:rat"
 				type: "observation"
 			}]
