@@ -1056,7 +1056,7 @@
 				""
 				"The &bCPU&r contains the &eCo-Proccessing Unit&r and &eCrafting Storage&r, they control how many &eRequests&r you can make at a time, and how many &eItems can be flowing around&r in the &bCrafting Network&r at the same time, respectfully."
 				""
-				"They can be placed anywhere adjacent to each other, and expanded by just adding more of the required block."
+				"They can be placed anywhere adjacent to each-other, and expanded by just adding more of the required block."
 				""
 				"{@pagebreak}"
 				"Initially one of each a &eCo-Proccessing Unit&r and a &e1k Crafting Storage&r is plenty, but as your demand expands upgrading the appropriate bottleneck is important and simple."
