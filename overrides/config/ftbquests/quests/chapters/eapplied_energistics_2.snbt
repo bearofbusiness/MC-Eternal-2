@@ -2828,10 +2828,7 @@
 			y: -12.0d
 		}
 		{
-			dependencies: [
-				"6206C71520FDFB49"
-				"67F89819C94F591A"
-			]
+			dependencies: ["6206C71520FDFB49"]
 			description: [
 				"Considerably more dense than things should be, &5Singularities&r require 256k Items/Buckets to and at least an &e64k ME Storage Component&r to produce in the &eMatter Condenser&r."
 				""
