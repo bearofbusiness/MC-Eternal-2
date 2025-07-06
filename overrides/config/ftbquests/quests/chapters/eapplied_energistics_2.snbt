@@ -7,187 +7,702 @@
 	id: "24965CC4F763480E"
 	images: [
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			height: 8.0d
+			image: "ae2:block/drive/drive_front_flat"
+			order: 1
 			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: 1.0d
+			width: 8.0d
+			x: 13.0d
+			y: -11.0d
 		}
 		{
-			height: 1.0d
+			dependency: "67F89819C94F591A"
+			height: 1.2d
 			image: "ae2:block/controller_column_lights"
-			rotation: 0.0d
+			rotation: -90.0d
 			width: 1.0d
-			x: 0.0d
-			y: -1.0d
+			x: 16.0d
+			y: -11.0d
 		}
 		{
-			height: 1.5d
-			image: "ae2:block/controller_lights"
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -11.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 18.0d
+			y: -11.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: -11.0d
+		}
+		{
+			height: 5.0d
+			image: "ae2:block/crafting/monitor"
+			order: 1
 			rotation: 0.0d
-			width: 1.5d
-			x: 0.0d
+			width: 5.0d
+			x: 21.0d
+			y: -11.0d
+		}
+		{
+			height: 9.0d
+			image: "ae2:block/controller"
+			order: 1
+			rotation: 0.0d
+			width: 9.0d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			dependency: "5F39514D991EB2B8"
+			height: 9.0d
+			image: "ae2:block/controller_lights"
+			order: 2
 			rotation: 0.0d
-			width: 1.0d
-			x: 1.9642857142857224d
-			y: -0.4940476190476204d
+			width: 9.0d
+			x: 13.0d
+			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
 			width: 1.0d
-			x: 2.4642857142857224d
-			y: -0.029761904761912206d
+			x: 18.0d
+			y: -11.0d
 		}
 		{
-			height: 1.0d
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: -11.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 16.0d
+			y: -11.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: -11.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
 			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependency: "5F39514D991EB2B8"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			order: -1
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			color: 657930
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
 			rotation: 0.0d
-			width: 1.0d
-			x: 2.1316282072803006E-14d
-			y: 1.8630952380952337d
+			width: 1.17d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
 			rotation: 0.0d
-			width: 1.0d
-			x: 2.1316282072803006E-14d
-			y: -1.8511904761904816d
+			width: 1.17d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 13.502380952380967d
-			y: 4.0166666666666515d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 11.66d
-			y: 4.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 12.473809523809535d
-			y: 4.016666666666644d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 13.51666666666668d
-			y: 3.070238095238075d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 12.480952380952395d
-			y: 3.0345238095237903d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 13.445238095238118d
-			y: 2.070238095238082d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 12.516666666666687d
-			y: 2.0345238095237974d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 12.480952380952417d
-			y: 1.070238095238082d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 13.492857142857176d
-			y: -1.989285714285728d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: 14.528571428571482d
-			y: -1.989285714285728d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
 			rotation: 0.0d
-			width: 1.0d
-			x: 15.016666666666701d
-			y: -2.554761904761918d
+			width: 1.17d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
 			rotation: 0.0d
-			width: 1.0d
-			x: 15.0d
-			y: -3.5d
+			width: 1.17d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
+			color: 2763306
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
 			x: -1.0d
 			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: -1.85d
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
-			height: 1.0d
-			image: "ae2:block/controller_column_lights"
-			rotation: -90.0d
-			width: 1.0d
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_small_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.17d
+			image: "ae2:block/sky_stone_small_brick"
+			rotation: 0.0d
+			width: 1.17d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			color: 4868682
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
 			x: 1.0d
 			y: 0.0d
 		}
 		{
-			height: 1.0d
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			color: 3815994
+			height: 1.17d
+			image: "ae2:block/sky_stone_block"
+			rotation: 0.0d
+			width: 1.17d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			height: 4.0d
+			image: "modpack:textures/ae2_quantum_ring.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ae2:block/controller_column"
+			order: -1
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
 			image: "ae2:block/controller_column_lights"
 			rotation: -90.0d
 			width: 1.0d
-			x: 1.85d
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependency: "67F89819C94F591A"
+			height: 1.2d
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 19.0d
 			y: 0.0d
 		}
 	]
@@ -253,7 +768,7 @@
 				type: "structure"
 			}]
 			title: "A Strange Discovery"
-			x: 0.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -289,7 +804,7 @@
 				}
 			]
 			title: "Certus Quartz"
-			x: 2.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -327,7 +842,7 @@
 				type: "item"
 			}]
 			title: "Budding Certus Quartz"
-			x: 0.0d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -408,7 +923,7 @@
 				}
 			]
 			title: "Inscriber Presses"
-			x: 0.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -433,7 +948,7 @@
 				item: { Count: 4, id: "ae2:sky_stone_block" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -467,7 +982,7 @@
 				}
 			]
 			title: "Charging"
-			x: 6.0d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
@@ -488,7 +1003,7 @@
 				item: "ae2:meteorite_compass"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -7.0d
 			y: -1.0d
 		}
 		{
@@ -509,11 +1024,14 @@
 				item: "ae2:guide"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -7.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["31977C760DC1FC77"]
+			dependencies: [
+				"31977C760DC1FC77"
+				"7D247A72BC4EC1A3"
+			]
 			description: [
 				"Before we move on, we must establish an new mechanic; &bIn World Transformations&r."
 				""
@@ -530,11 +1048,12 @@
 			}]
 			title: "In World Transformation"
 			x: 6.0d
-			y: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["353A578CDE6BFEE9"]
 			description: ["If you find yourself needing more &eCertus Quartz Dust/Crystals&r, you can rejuvenate &eChipped/Damaged Budding Certus Quartz&r or breathe fresh life into an &eCertus Quartz Block&r by combing them with an &bCharged Certus Quartz Crystal&r in an &9pool of water&r."]
+			hide_until_deps_complete: true
 			id: "637B7439FCF1D436"
 			optional: true
 			subtitle: "Similar to a defibrillator"
@@ -544,12 +1063,13 @@
 				type: "checkmark"
 			}]
 			title: "Rejuvenation"
-			x: 7.0d
-			y: -3.0d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["353A578CDE6BFEE9"]
 			description: ["If you need to convert some Dust into Crystals, you can do so by mixing &bCharged Certus Quartz Crystals&r and &eCertus Quartz Dust&r to produce 2x &eCertus Quartz Crystal&r"]
+			hide_until_deps_complete: true
 			id: "47B8823D3CE98856"
 			optional: true
 			subtitle: "Too much dust?"
@@ -560,7 +1080,7 @@
 			}]
 			title: "Equivalent Exchange"
 			x: 5.0d
-			y: -3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["607B99F14104C94C"]
@@ -626,7 +1146,7 @@
 				type: "item"
 			}]
 			title: "Inscribing"
-			x: 6.0d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -653,14 +1173,11 @@
 				type: "checkmark"
 			}]
 			title: "Initial Power! &e(Information Quest)&r"
-			x: 3.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"31977C760DC1FC77"
-				"7D247A72BC4EC1A3"
-			]
+			dependencies: ["353A578CDE6BFEE9"]
 			description: [
 				"Your &dME Controller&r is the heart of your entire Network, every machine you have used so far takes up an &eChannel&r, without an controller your &eNetwork&r is limited to &e8 Channels&r."
 				""
@@ -682,6 +1199,7 @@
 				""
 				"&6Tip:&r In order to transfer external &7Power Generation&r into &dAE2&r, all you need is an &eEnergy Acceptor&r. Just connect your acceptor to your Network, hook your power into, it and watch your battery fill!"
 			]
+			hide_dependent_lines: true
 			icon: "ae2:controller"
 			id: "5F39514D991EB2B8"
 			rewards: [
@@ -742,7 +1260,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
@@ -777,8 +1295,8 @@
 				}
 			]
 			title: "Fluix Cables"
-			x: 9.0d
-			y: 1.0d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["563E2BEF024962AD"]
@@ -826,8 +1344,8 @@
 				}
 			]
 			title: "Thicker Cables"
-			x: 8.0d
-			y: 2.0d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -837,8 +1355,10 @@
 				"All of your &4*spoils of conquest*&r will be stored in &eME Item Storage Cells&r, functionally an chest with much deeper item slots."
 				""
 				"&eStorage Cells&r are stored in &eME Drives&r which act as an holding bay for &510 Storage Cells&r per &eME Drive&r regardles of size or type."
+				"{@pagebreak}"
+				"To access your &bStorage Network&r you must use at least a &eME Terminal&r, but for most cases you want to push an step beyond and instead use an &eCrafting Terminal&r."
 				""
-				"To access your &bStorage Network&r you must use at least a &eME Terminal&r, but for most cases you want to push an step beyond and instead use an &eCrafting Terminal&r which also allows you to access your &bStorage Network&r but it provide an easy to use &eCrafting Table&r within the terminal for all your crafting needs."
+				"Not only does it allow you to access your &bStorage Network&r but it also provides an easy to use &eCrafting Table&r within the terminal."
 				"{image:modpack:textures/ae2_simple_storage.png width:200 height:100 align:center}"
 				"{@pagebreak}"
 				"While all &eItem Storage Cells&r only allow you to store &563 types&r of items per Storage Cell, the size of your &eStorage Cell&r (&c1k&r, &64k&r, &a16k&r etc.) allows you to scale the &7Capacity&r of those cells."
@@ -855,6 +1375,7 @@
 				""
 				"Again, the specifics aren't necessary but the &eGuide&r has a table can explain this visually. (Try holding 'G' on &eStorage Cells&r)"
 			]
+			hide_dependent_lines: true
 			icon: "ae2:drive"
 			id: "67F89819C94F591A"
 			rewards: [
@@ -921,8 +1442,8 @@
 				}
 			]
 			title: "Storage Network"
-			x: 11.0d
-			y: -2.0d
+			x: 13.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -946,10 +1467,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["5F39514D991EB2B8"]
+			dependencies: ["67F89819C94F591A"]
 			description: [
 				"Every &dAE2&r &eMachine&r can be &ealtered or upgraded&r in some way, these cards are the methods in which you can do that, some can stack while others don't need to, each machine will have an &enumber (x)&r next to the cards that it can accept, that number is the &emaximum amount&r of that card that it will accept at a time."
 				""
@@ -1046,8 +1567,8 @@
 				}
 			]
 			title: "Card Collecting"
-			x: 8.0d
-			y: 1.0d
+			x: 13.0d
+			y: -9.69d
 		}
 		{
 			dependencies: ["7889A5659E64B507"]
@@ -1056,7 +1577,7 @@
 				""
 				"The &bCPU&r contains the &eCo-Proccessing Unit&r and &eCrafting Storage&r, they control how many &eRequests&r you can make at a time, and how many &eItems can be flowing around&r in the &bCrafting Network&r at the same time, respectfully."
 				""
-				"They can be placed anywhere adjacent to each-other, and expanded by just adding more of the required block."
+				"They can be placed anywhere adjacent to each other, and expanded by just adding more of the required block."
 				""
 				"{@pagebreak}"
 				"Initially one of each a &eCo-Proccessing Unit&r and a &e1k Crafting Storage&r is plenty, but as your demand expands upgrading the appropriate bottleneck is important and simple."
@@ -1087,8 +1608,8 @@
 				}
 			]
 			title: "Crafting CPU"
-			x: 14.0d
-			y: -2.0d
+			x: 20.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1116,8 +1637,8 @@
 				type: "item"
 			}]
 			title: "Fluid Storage"
-			x: 11.0d
-			y: -5.0d
+			x: 12.0d
+			y: -13.55d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1147,8 +1668,8 @@
 				type: "item"
 			}]
 			title: "Deeper Storage"
-			x: 10.0d
-			y: -5.0d
+			x: 11.0d
+			y: -13.55d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1206,8 +1727,8 @@
 				type: "item"
 			}]
 			title: "Chemicals Too"
-			x: 12.0d
-			y: -5.0d
+			x: 14.0d
+			y: -13.55d
 		}
 		{
 			dependencies: [
@@ -1281,8 +1802,8 @@
 				type: "item"
 			}]
 			title: "Colourful Cables"
-			x: 9.0d
-			y: 3.0d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1305,8 +1826,8 @@
 				item: "ae2:chest"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -4.0d
+			x: 14.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1359,8 +1880,8 @@
 				item: "ae2:io_port"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 15.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1429,8 +1950,8 @@
 				item: "ae2:cell_workbench"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 13.0d
+			y: -13.55d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1455,8 +1976,8 @@
 				type: "checkmark"
 			}]
 			title: "Priority"
-			x: 9.0d
-			y: -5.0d
+			x: 13.0d
+			y: -12.26d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1466,8 +1987,6 @@
 				"&6Tip:&r If you have a lot of &eNon-Stacking Items&r such as enchanted books and still want to access them through your &eTerminal&r, try creating an seperate storage such as &eSimple Storage Chests&r or &eCreate's Vault&r deticated to those items and connecting it to your network using the storage bus."
 				""
 				"&6Hint:&r &eStorage Buses&r are useful for many cases, so many infact that I couldn't reasonably fit them all here, but if you ever find yourself trying to access resources between your &bStorage Network&r and an &eSub-Network&r, &eStorage Buses&r are can help."
-				""
-				""
 				"{@pagebreak}"
 				"&6Tip:&r By default, &eStorage Buses&r allow everything to move through them, but they can also be filtered to only accept certain resources."
 				""
@@ -1523,8 +2042,8 @@
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -1.0d
+			x: 14.0d
+			y: -12.26d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1557,8 +2076,8 @@
 				}
 			]
 			title: "Import/Export Buses"
-			x: 12.0d
-			y: -3.0d
+			x: 11.0d
+			y: -12.26d
 		}
 		{
 			dependencies: ["2ADED090D8AB82FB"]
@@ -1600,6 +2119,7 @@
 				"(&6Visual Example&r; &5Fluix Cables&r are hidden but connect the &bCrafting Network&r with the &bStorage Network&r)"
 				"{image:modpack:textures/ae2_simple_crafting_setup.png width:200 height:100 align:center}"
 			]
+			hide_dependent_lines: true
 			id: "19ABB31DC31B6DF3"
 			rewards: [{
 				amount: 100L
@@ -1622,8 +2142,8 @@
 				}
 			]
 			title: "Crafting RAM"
-			x: 15.0d
-			y: -2.0d
+			x: 20.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -1689,8 +2209,8 @@
 				}
 			]
 			title: "Auto-Crafting"
-			x: 13.0d
-			y: -2.0d
+			x: 20.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["35BF66CD4FAE83DE"]
@@ -1718,7 +2238,7 @@
 				item: "ae2:certus_quartz_wrench"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -1750,8 +2270,8 @@
 				item: "ae2:annihilation_plane"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 3.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["22B6724C52A81603"]
@@ -1815,15 +2335,11 @@
 				item: "ae2:formation_plane"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"6CB2052755C8ABC1"
-				"44FECE9717443836"
-				"7A08C9D3CE872BE5"
-			]
+			dependencies: ["67F89819C94F591A"]
 			description: [
 				"Once charged; &ePortable Cells&r act as a backpack in your inventory."
 				""
@@ -1904,8 +2420,8 @@
 				}
 			]
 			title: "Portable Cells"
-			x: 11.0d
-			y: -6.0d
+			x: 15.0d
+			y: -13.55d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -1931,8 +2447,8 @@
 				item: "ae2:spatial_anchor"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -1972,8 +2488,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 2.0d
+			x: 14.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["65EB1D8FE39B2EA8"]
@@ -1998,7 +2514,7 @@
 				item: "ae2:spatial_storage_cell_2"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: 2.0d
 		}
 		{
@@ -2019,7 +2535,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["563E2BEF024962AD"]
@@ -2064,11 +2580,11 @@
 				}
 			]
 			title: "Smarter Cables"
-			x: 10.0d
-			y: 2.0d
+			x: 11.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["5F39514D991EB2B8"]
+			dependencies: ["67F89819C94F591A"]
 			description: [
 				"At some point getting back to your &ePrimary Terminal&r for every other task gets repetative, and as your operation expands that downtime between going back and forth expands."
 				""
@@ -2076,6 +2592,7 @@
 				""
 				"A little bit of power, an &eWireless Access Point&r later and bam; &bWireless Storage/Crafting Network&r access."
 			]
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "ae2:wireless_crafting_terminal"
@@ -2106,8 +2623,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 1.0d
+			x: 14.0d
+			y: -9.69d
 		}
 		{
 			dependencies: ["67291F78A9989FF4"]
@@ -2136,8 +2653,8 @@
 				item: "ae2:wireless_booster"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 1.0d
+			x: 15.0d
+			y: -9.69d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -2173,8 +2690,8 @@
 				type: "checkmark"
 			}]
 			title: "More about Sub-Networks"
-			x: 9.0d
-			y: 2.0d
+			x: 12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["44B5442523858453"]
@@ -2237,8 +2754,8 @@
 				type: "checkmark"
 			}]
 			title: "Processing Patterns 2"
-			x: 15.0d
-			y: -4.0d
+			x: 22.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["19ABB31DC31B6DF3"]
@@ -2307,12 +2824,19 @@
 				type: "checkmark"
 			}]
 			title: "Processing Patterns 1"
-			x: 15.0d
-			y: -3.0d
+			x: 22.0d
+			y: -12.0d
 		}
 		{
-			dependencies: ["6206C71520FDFB49"]
-			description: ["Considerably more dense than things should be, &5Singularities&r require 256k Items/Buckets to and at least an &e64k ME Storage Component&r to produce in the &eMatter Condenser&r."]
+			dependencies: [
+				"6206C71520FDFB49"
+				"67F89819C94F591A"
+			]
+			description: [
+				"Considerably more dense than things should be, &5Singularities&r require 256k Items/Buckets to and at least an &e64k ME Storage Component&r to produce in the &eMatter Condenser&r."
+				""
+				"&6Note:&r Before progressing into the &5Quantum&r realm, you should setup an &bStorage Network&r."
+			]
 			id: "0A523F4F763108E3"
 			rewards: [{
 				amount: 100L
@@ -2327,8 +2851,8 @@
 				item: "ae2:singularity"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 4.0d
+			x: 19.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -2355,8 +2879,8 @@
 				item: "ae2:condenser"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.0d
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["67F89819C94F591A"]
@@ -2381,8 +2905,8 @@
 				item: "ae2:cable_interface"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.0d
+			x: 15.0d
+			y: -12.26d
 		}
 		{
 			dependencies: ["6206C71520FDFB49"]
@@ -2401,8 +2925,8 @@
 				item: "ae2:matter_ball"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 4.0d
+			x: 16.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0A523F4F763108E3"]
@@ -2463,8 +2987,8 @@
 				item: "ae2:quantum_entangled_singularity"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 4.0d
+			x: 19.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4C2DEDE6A0636F90"]
@@ -2493,8 +3017,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 5.0d
+			x: 16.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4C2DEDE6A0636F90"]
@@ -2523,8 +3047,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 5.0d
+			x: 16.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -2540,8 +3064,8 @@
 				item: "ae2:crystal_resonance_generator"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 10.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5F39514D991EB2B8"]
@@ -2557,8 +3081,8 @@
 				item: "ae2:vibration_chamber"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -2579,8 +3103,79 @@
 				type: "checkmark"
 			}]
 			title: " Getting Started with &dApplied Energistics&r"
-			x: -5.0d
+			x: -8.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3F512C07B5DB53AF"]
+			description: [
+				"&5Quantum Network Bridges&r can extend a &eNetwork&r over infinite distances and even between dimensions."
+				""
+				"They have many uses, including but not limited to; Accessing and transferring resources between connected &eNetworks&r."
+				""
+				"The &eME Quantum Link Chamber&r is the core of a &5Quantum Network Bridge&r, and the &eME Quantum Rings&r are the interfaces through which &eNetworks&r can interact."
+				""
+				"&6Note:&r Quantum Network Bridges allow 32 channels in total, but only &eME Quantum Rings&r adjacent to the &eME Quantum Link Chamber&r can receive and transfer information."
+				""
+				"&8(Both sides of an Quantum Network Bridge must be continuously chunk loaded to function)&r"
+			]
+			id: "680E92937D4A03A5"
+			subtitle: "Beyond Wireless"
+			tasks: [
+				{
+					id: "7982BFAB2ED75FD6"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "73B74D89EE4B1A3B"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+			]
+			title: "Quantum Network Bridge"
+			x: 23.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["680E92937D4A03A5"]
+			description: [
+				"Amongst the many uses of an &5Quantum Network Bridge&r, &aWireless Crafting and Storage Accesses&r is the most common."
+				""
+				"The &eQuantum Bridge Card&r is an upgrade to your &eWireless Terminals&r that allows them to accept &5Quantum Entangled Singularities&r."
+				""
+				"You can access and interact with your &bStorage Network&r by linking it to a &5Quantum Network Bridge&r, and pairing the bridge's &eME Quantum Link Chamber&r to your &eWireless Terminal&r using &5Quantum Entangled Singularities&r."
+			]
+			id: "2E14EC6EBA56DA56"
+			subtitle: "Cross-Dimensional Storage Access"
+			tasks: [{
+				id: "708FC5844FAB1FC8"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E14EC6EBA56DA56"]
+			description: [
+				"Don't stop at &bCross-Dimentional Network Access&r."
+				""
+				"The uses of &5Quantum Network Bridges&r is &alimited only by your imagination&r, &dApplied Energistics&r can solve or be a part of the solution to every problem you face through your journey in <rainb>MCE2."
+				"{@pagebreak}"
+				"&6Take care of your Network, and it will take care of you&r"
+			]
+			id: "1A7B7ADC6B65A48F"
+			subtitle: "and Beyond"
+			tasks: [{
+				id: "2F11857AD709E9C9"
+				title: "Read"
+				type: "checkmark"
+			}]
+			title: "To Infinity"
+			x: 19.0d
+			y: 2.0d
 		}
 	]
 	title: "&6Applied Energistics 2"
