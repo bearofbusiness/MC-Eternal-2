@@ -720,13 +720,6 @@
 			id: "0C59541433431FDD"
 			rewards: [
 				{
-					amount: 80L
-					currency: "eternalcurrencies:coins"
-					id: "1E894659A70F605D"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
 					id: "0C621DFE70ED44F3"
 					item: {
 						Count: 1
@@ -757,6 +750,13 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "618C2DB45D46767D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Find a &eCrashed Meteorite"
@@ -825,7 +825,7 @@
 			rewards: [{
 				amount: 80L
 				currency: "eternalcurrencies:coins"
-				id: "0C4987804173188E"
+				id: "1B8A8210D6C23691"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
@@ -858,47 +858,13 @@
 				"&6Tip:&r While the &eInscriber Presses are not consumed in their respective recipes&r, they can only command an single inscriber at a time, When your demand out-scales your initial set of Inscribers, each can be used to &eproduce an copy&r of itself when inscribed onto an Iron Block."
 			]
 			id: "0F049DA208BF4053"
-			rewards: [
-				{
-					amount: 80L
-					currency: "eternalcurrencies:coins"
-					id: "70E2A1AAC72390C2"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "4E709720839DF2EB"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "5FC436111F11696C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "A little force oughta do"
 			tasks: [
 				{
@@ -964,7 +930,7 @@
 			rewards: [{
 				amount: 80L
 				currency: "eternalcurrencies:coins"
-				id: "7CA33B9D73D71092"
+				id: "5DBAC375E894FCE6"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
@@ -1040,6 +1006,47 @@
 				"I'll provide you with two non-essential but potentially useful examples as &eOptional Quests&r."
 			]
 			id: "353A578CDE6BFEE9"
+			rewards: [
+				{
+					id: "2608DDCDB4A554FF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 40L
+					currency: "eternalcurrencies:coins"
+					id: "050F000C1545E04B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
 			subtitle: "Natural"
 			tasks: [{
 				id: "6116B7AEE4AD7F90"
@@ -1098,47 +1105,13 @@
 				"&6Printed Logic Circuits&r + &8Printed Silicon&r + &4Redstone&r => &6Logic Processor&r"
 			]
 			id: "7D247A72BC4EC1A3"
-			rewards: [
-				{
-					amount: 80L
-					currency: "eternalcurrencies:coins"
-					id: "2E416076FCA82C83"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "24E27AAB8866994E"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "0B1C56F13720C264"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "High Tech Printing"
 			tasks: [{
 				id: "51B35295F6D1B026"
@@ -1160,7 +1133,7 @@
 			]
 			id: "607B99F14104C94C"
 			rewards: [{
-				amount: 80L
+				amount: 40L
 				currency: "eternalcurrencies:coins"
 				id: "7CCFAF0252F25766"
 				ignore_reward_blocking: true
@@ -1204,6 +1177,7 @@
 			id: "5F39514D991EB2B8"
 			rewards: [
 				{
+					count: 2
 					id: "475C78C193D87A74"
 					item: {
 						Count: 1
@@ -1236,7 +1210,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 300L
 					currency: "eternalcurrencies:coins"
 					id: "197C1B27983277A8"
 					ignore_reward_blocking: true
@@ -1412,7 +1386,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "044DE869995A92E2"
 					ignore_reward_blocking: true
@@ -1453,13 +1427,47 @@
 				"You can stack as many as you can fit, but beware, they love chewing through your &7Power Bank&r, and as such try to get full efficiency out of each one."
 			]
 			id: "786990F250A68E7C"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "57C714E6DB583048"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					id: "19E33837F633C34F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "542F817E22153714"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
 			subtitle: "Accelerating Growth"
 			tasks: [{
 				id: "091783DE3A313230"
@@ -1478,13 +1486,6 @@
 			]
 			id: "4EA9475456821DCD"
 			rewards: [
-				{
-					amount: 80L
-					currency: "eternalcurrencies:coins"
-					id: "3117D57617760CB5"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
 				{
 					id: "4D589338D88656B3"
 					item: {
@@ -1516,6 +1517,13 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "609C70B11ECF1FA9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Upgrades in SIM form"
@@ -1587,13 +1595,47 @@
 				"&6For Example;&r Crafting 30 different types of doors => &eUnique Patterns&r, Crafting an single type of door 30 times => &eSingle Pattern&r."
 			]
 			id: "2ADED090D8AB82FB"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "4B407A5D055CD2C8"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					id: "2C6DB126A8E259BA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "66D2058D2296DE13"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
 			subtitle: "Half a Crafting Network"
 			tasks: [
 				{
@@ -1675,47 +1717,13 @@
 			dependencies: ["67F89819C94F591A"]
 			description: ["Your &bStorage Network&r can also accept &eChemicals&r, the cells act identically to their &eFluid&r counterparts and as such the advice for them applies here as well."]
 			id: "7A08C9D3CE872BE5"
-			rewards: [
-				{
-					id: "0854C77B46A93BCC"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "334A01B7D5641591"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "334A01B7D5641591"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Gaseous "
 			tasks: [{
 				id: "6A84FF703976E87E"
@@ -1969,6 +1977,13 @@
 				"&6Hint:&r This is not limited to just ME Drives, almost every machine you work with will have an option for priority and they will all follow the &aChain of Priority&r."
 			]
 			id: "7C914E8C3B3778D1"
+			rewards: [{
+				amount: 40L
+				currency: "eternalcurrencies:coins"
+				id: "5A81E712F1057280"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Organizational Tool"
 			tasks: [{
 				id: "0B2BF4EF70DE9E60"
@@ -1995,47 +2010,13 @@
 				"Therefore your harvester of choice, assuming it doesn't have it's own inventory, will only be able to harvest &eMature Certus Quartz&r ensuring that you do not run into inefficent harvesting."
 			]
 			id: "3E8E4F3540AE38AD"
-			rewards: [
-				{
-					id: "47D048FF6A15745C"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "41E42B619AD11FF2"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "41E42B619AD11FF2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "For accepting non-drive storage"
 			tasks: [{
 				id: "2619FBCD58071BBE"
@@ -2121,13 +2102,47 @@
 			]
 			hide_dependent_lines: true
 			id: "19ABB31DC31B6DF3"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "664AA0FB527F2567"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					id: "02A2C31FB015E317"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "40C48372D13BE3F4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
 			subtitle: "The Other Half"
 			tasks: [
 				{
@@ -2188,13 +2203,47 @@
 			]
 			icon: "ae2:pattern_encoding_terminal"
 			id: "7889A5659E64B507"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "4DE80D702CAADBFE"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					id: "78D5251100E6646F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "6EAEEE2E34C6D712"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
 			subtitle: "Automation's at hand"
 			tasks: [
 				{
@@ -2288,47 +2337,13 @@
 				"{image:modpack:textures/ae2_simple_farming_setup.png width:200 height:100 align:center}"
 			]
 			id: "034F0C238E6C785E"
-			rewards: [
-				{
-					id: "228CF816598B44BC"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "554D93E738DE275D"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "21967AC688788436"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Clamer Placing"
 			tasks: [{
 				id: "4003D789DCAF395C"
@@ -2437,7 +2452,7 @@
 			rewards: [{
 				amount: 100L
 				currency: "eternalcurrencies:coins"
-				id: "2DF5D87A3F996AFB"
+				id: "52D9E8BA0CDBC2F2"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
@@ -2468,13 +2483,47 @@
 			]
 			icon: "ae2:spatial_io_port"
 			id: "65EB1D8FE39B2EA8"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "104136CE2B5D0451"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					id: "539FD6B426325B39"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "1F56F8C02059B72B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
 			subtitle: "Digitizing Structures"
 			tasks: [
 				{
@@ -2524,7 +2573,7 @@
 			rewards: [{
 				amount: 100L
 				currency: "eternalcurrencies:coins"
-				id: "00B06E84766B23FF"
+				id: "1935F8ED0505B636"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
@@ -2599,13 +2648,47 @@
 				tag: { }
 			}
 			id: "67291F78A9989FF4"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "39ADA0469FA2968D"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					id: "09966F04C7B39FE1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7574130DCB3E6E0E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
 			subtitle: "Losing the Cables"
 			tasks: [
 				{
@@ -2641,7 +2724,7 @@
 			]
 			id: "27EEB6AA40D3EB18"
 			rewards: [{
-				amount: 100L
+				amount: 80L
 				currency: "eternalcurrencies:coins"
 				id: "2F7C3398521BF11A"
 				ignore_reward_blocking: true
@@ -2683,6 +2766,13 @@
 				"Keep in mind that a lot of the information provided is usally &anot the only solution&r to the problems they solve."
 			]
 			id: "591F6FACE42A8C85"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "389120462F938C90"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "The Secret Sauce"
 			tasks: [{
 				id: "1346D5F5164B2174"
@@ -2706,47 +2796,13 @@
 			]
 			icon: "minecraft:brewing_stand"
 			id: "37ED052F5D0295A2"
-			rewards: [
-				{
-					id: "66C7D151DCDB447E"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 100L
-					currency: "eternalcurrencies:coins"
-					id: "6CD71AA61A5CE579"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+			rewards: [{
+				amount: 40L
+				currency: "eternalcurrencies:coins"
+				id: "6CD71AA61A5CE579"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Automated Brewing"
 			tasks: [{
 				id: "02B7642CB670F4ED"
@@ -2776,9 +2832,34 @@
 			]
 			icon: "thermal:machine_furnace"
 			id: "44B5442523858453"
+			rewards: [{
+				amount: 40L
+				currency: "eternalcurrencies:coins"
+				id: "24DC62B7AFC036D6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Automated Smleting"
+			tasks: [{
+				id: "4C677C65F4E705C2"
+				title: "Read"
+				type: "checkmark"
+			}]
+			title: "Processing Patterns 1"
+			x: 22.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6206C71520FDFB49"]
+			description: [
+				"Considerably more dense than things should be, &5Singularities&r require 256k Items/Buckets to and at least an &e64k ME Storage Component&r to produce in the &eMatter Condenser&r."
+				""
+				"&6Note:&r Before progressing into the &5Quantum&r realm, you should setup an &bStorage Network&r."
+			]
+			id: "0A523F4F763108E3"
 			rewards: [
 				{
-					id: "692F36844B7D9AF9"
+					id: "75394D8C017B18F9"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
@@ -2812,36 +2893,11 @@
 				{
 					amount: 100L
 					currency: "eternalcurrencies:coins"
-					id: "24DC62B7AFC036D6"
+					id: "210F8DBE378F4A6C"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Automated Smleting"
-			tasks: [{
-				id: "4C677C65F4E705C2"
-				title: "Read"
-				type: "checkmark"
-			}]
-			title: "Processing Patterns 1"
-			x: 22.0d
-			y: -12.0d
-		}
-		{
-			dependencies: ["6206C71520FDFB49"]
-			description: [
-				"Considerably more dense than things should be, &5Singularities&r require 256k Items/Buckets to and at least an &e64k ME Storage Component&r to produce in the &eMatter Condenser&r."
-				""
-				"&6Note:&r Before progressing into the &5Quantum&r realm, you should setup an &bStorage Network&r."
-			]
-			id: "0A523F4F763108E3"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "18DED9E18038C227"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
 			subtitle: "Crossing the Barrier"
 			tasks: [{
 				id: "782B9355DCBD6BA1"
@@ -2863,13 +2919,47 @@
 				"3) Push the limits of space to produce extreamly dense &5Singularities&r."
 			]
 			id: "6206C71520FDFB49"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "0BCFC217E9934BCC"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					id: "71ED7BDB51BB67B6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "373A018594B431AF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
 			subtitle: "Advanced Space Trashcan"
 			tasks: [{
 				id: "30B2E0697D438ECA"
@@ -2937,9 +3027,176 @@
 				"&6Recall:&r &eHolding 'G'&r on an item your are curious about will bring up it's &eGuide&r page."
 			]
 			id: "3F512C07B5DB53AF"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "37829A7E51529A77"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "A pair of what?"
+			tasks: [{
+				id: "1028B447DF5F6355"
+				item: "ae2:quantum_entangled_singularity"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C2DEDE6A0636F90"]
+			description: [
+				"Self explanatory isn't it, an portable \"railgun\" capable of firing the most &4fersome projectiles&r such as &eMetalic Nuggets&r and &eMatter Balls&r."
+				""
+				"Can be easily filled in an ME Chest."
+				""
+				"Enjoy."
+			]
+			id: "7C084B05C5DE6101"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "08C2D4949804E465"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Painball Fight!"
+			tasks: [{
+				id: "72B3E293B4765C49"
+				item: {
+					Count: 1
+					id: "ae2:matter_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C2DEDE6A0636F90"]
+			description: [
+				"If you ever wanted to &epaint your pre-installed Cables&r, and other paintable objects, the &eColour Applicator&r is the tool for you."
+				""
+				"It can consume dyes or &ePaintballs&r to spread color, and can clean up behind itself when using snowballs."
+				""
+				"They can be &eeasily filled in an ME Chest&r, you can shift-scroll to cycle through it's contents when prepared and right-click to place your mark on the world."
+			]
+			id: "0799774F5E323334"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "0E63ECC19B0EF4A2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Calming"
+			tasks: [{
+				id: "38DA6B526E5AC149"
+				item: {
+					Count: 1
+					id: "ae2:color_applicator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F39514D991EB2B8"]
+			description: [
+				"&eCrystal Resonance Generator&r are less powerful &7Power Producers&r than &eVibration Generators&r, but can &bSelf-Sustain&r your &eNetwork&r. "
+				""
+				"Each produce &e20 AE/t&r, output energy to their south, and &ado not require maintanace&r outside of their initial cost."
+			]
+			id: "58E7B8912E34C67E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "0609A3E88A405BFB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Self-Sustaining Power"
+			tasks: [{
+				id: "11CA355E691895DE"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F39514D991EB2B8"]
+			description: [
+				"&eVibrantion Chambers&r are &7Power Producers&r meant for more extensive tasks, they produce &e40 AE/t&r but consume fuel very rapidly."
+				""
+				"They're &cexpensive&r outside of the initial stages of your &eNetwork&r so make sure you move onto other sources before growing your operations too far."
+			]
+			id: "1E92535385E26C8D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "1393ECB297F0A5D2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Wobble Wobble Wobble"
+			tasks: [{
+				id: "14DA67267F6B6BC0"
+				item: "ae2:vibration_chamber"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"If you are looking to dive into &dApplied Energistics&r, and have not found an &eCrashed Meteorite&r yet, here's how to get started:"
+				""
+				"1) Craft a &eWooden Handle&r"
+				"2) Craft and Place a &eCharger&r"
+				"3) Place the Wooden Handle on the Charger"
+				"4) Place a &eCompass&r into the Charger"
+				"5) Turn the Wooden Handle &7(Hold Right-Click)&r until your Compass transforms into a &eMeteorite Compass&r"
+				"6) Follow the Meteorite Compass towards your nearest Meteorite."
+			]
+			id: "5CF065DD209B4B1C"
+			rewards: [{
+				amount: 40L
+				currency: "eternalcurrencies:coins"
+				id: "4FF59D4104E4CC58"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: " What is all this?!"
+			tasks: [{
+				id: "09C14766BCC711D9"
+				title: "Read"
+				type: "checkmark"
+			}]
+			title: " Getting Started with &dApplied Energistics&r"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F512C07B5DB53AF"]
+			description: [
+				"&5Quantum Network Bridges&r can extend a &eNetwork&r over infinite distances and even between dimensions."
+				""
+				"They have many uses, including but not limited to; Accessing and transferring resources between connected &eNetworks&r."
+				""
+				"The &eME Quantum Link Chamber&r is the core of a &5Quantum Network Bridge&r, and the &eME Quantum Rings&r are the interfaces through which &eNetworks&r can interact."
+				""
+				"&6Note:&r Quantum Network Bridges allow 32 channels in total, but only &eME Quantum Rings&r adjacent to the &eME Quantum Link Chamber&r can receive and transfer information."
+				""
+				"&8(Both sides of an Quantum Network Bridge must be continuously chunk loaded to function)&r"
+			]
+			id: "680E92937D4A03A5"
 			rewards: [
 				{
-					id: "12CBF6737903E4C4"
+					id: "4616369D42682DA6"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
@@ -2973,150 +3230,11 @@
 				{
 					amount: 100L
 					currency: "eternalcurrencies:coins"
-					id: "37829A7E51529A77"
+					id: "548DFB6801B17277"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "A pair of what?"
-			tasks: [{
-				id: "1028B447DF5F6355"
-				item: "ae2:quantum_entangled_singularity"
-				type: "item"
-			}]
-			x: 19.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["4C2DEDE6A0636F90"]
-			description: [
-				"Self explanatory isn't it, an portable \"railgun\" capable of firing the most &4fersome projectiles&r such as &eMetalic Nuggets&r and &eMatter Balls&r."
-				""
-				"Can be easily filled in an ME Chest."
-				""
-				"Enjoy."
-			]
-			id: "7C084B05C5DE6101"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "08C2D4949804E465"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Painball Fight!"
-			tasks: [{
-				id: "72B3E293B4765C49"
-				item: {
-					Count: 1
-					id: "ae2:matter_cannon"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 16.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4C2DEDE6A0636F90"]
-			description: [
-				"If you ever wanted to &epaint your pre-installed Cables&r, and other paintable objects, the &eColour Applicator&r is the tool for you."
-				""
-				"It can consume dyes or &ePaintballs&r to spread color, and can clean up behind itself when using snowballs."
-				""
-				"They can be &eeasily filled in an ME Chest&r, you can shift-scroll to cycle through it's contents when prepared and right-click to place your mark on the world."
-			]
-			id: "0799774F5E323334"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "0E63ECC19B0EF4A2"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "Calming"
-			tasks: [{
-				id: "38DA6B526E5AC149"
-				item: {
-					Count: 1
-					id: "ae2:color_applicator"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 16.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5F39514D991EB2B8"]
-			description: [
-				"&eCrystal Resonance Generator&r are less powerful &7Power Producers&r than &eVibration Generators&r, but can &bSelf-Sustain&r your &eNetwork&r. "
-				""
-				"Each produce &e20 AE/t&r, output energy to their south, and &ado not require maintanace&r outside of their initial cost."
-			]
-			id: "58E7B8912E34C67E"
-			subtitle: "Self-Sustaining Power"
-			tasks: [{
-				id: "11CA355E691895DE"
-				item: "ae2:crystal_resonance_generator"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["5F39514D991EB2B8"]
-			description: [
-				"&eVibrantion Chambers&r are &7Power Producers&r meant for more extensive tasks, they produce &e40 AE/t&r but consume fuel very rapidly."
-				""
-				"They're &cexpensive&r outside of the initial stages of your &eNetwork&r so make sure you move onto other sources before growing your operations too far."
-			]
-			id: "1E92535385E26C8D"
-			subtitle: "Wobble Wobble Wobble"
-			tasks: [{
-				id: "14DA67267F6B6BC0"
-				item: "ae2:vibration_chamber"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 2.0d
-		}
-		{
-			description: [
-				"If you are looking to dive into &dApplied Energistics&r, and have not found an &eCrashed Meteorite&r yet, here's how to get started:"
-				""
-				"1) Craft a &eWooden Handle&r"
-				"2) Craft and Place a &eCharger&r"
-				"3) Place the Wooden Handle on the Charger"
-				"4) Place a &eCompass&r into the Charger"
-				"5) Turn the Wooden Handle &7(Hold Right-Click)&r until your Compass transforms into a &eMeteorite Compass&r"
-				"6) Follow the Meteorite Compass towards your nearest Meteorite."
-			]
-			id: "5CF065DD209B4B1C"
-			subtitle: " What is all this?!"
-			tasks: [{
-				id: "09C14766BCC711D9"
-				title: "Read"
-				type: "checkmark"
-			}]
-			title: " Getting Started with &dApplied Energistics&r"
-			x: -8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3F512C07B5DB53AF"]
-			description: [
-				"&5Quantum Network Bridges&r can extend a &eNetwork&r over infinite distances and even between dimensions."
-				""
-				"They have many uses, including but not limited to; Accessing and transferring resources between connected &eNetworks&r."
-				""
-				"The &eME Quantum Link Chamber&r is the core of a &5Quantum Network Bridge&r, and the &eME Quantum Rings&r are the interfaces through which &eNetworks&r can interact."
-				""
-				"&6Note:&r Quantum Network Bridges allow 32 channels in total, but only &eME Quantum Rings&r adjacent to the &eME Quantum Link Chamber&r can receive and transfer information."
-				""
-				"&8(Both sides of an Quantum Network Bridge must be continuously chunk loaded to function)&r"
-			]
-			id: "680E92937D4A03A5"
 			subtitle: "Beyond Wireless"
 			tasks: [
 				{
@@ -3145,6 +3263,47 @@
 				"You can access and interact with your &bStorage Network&r by linking it to a &5Quantum Network Bridge&r, and pairing the bridge's &eME Quantum Link Chamber&r to your &eWireless Terminal&r using &5Quantum Entangled Singularities&r."
 			]
 			id: "2E14EC6EBA56DA56"
+			rewards: [
+				{
+					id: "4F77BEC0CC21C029"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "6EE244C19208CA7E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
 			subtitle: "Cross-Dimensional Storage Access"
 			tasks: [{
 				id: "708FC5844FAB1FC8"
@@ -3164,6 +3323,13 @@
 				"&6Take care of your Network, and it will take care of you&r"
 			]
 			id: "1A7B7ADC6B65A48F"
+			rewards: [{
+				amount: 40L
+				currency: "eternalcurrencies:coins"
+				id: "17C0AE16913B87AB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "and Beyond"
 			tasks: [{
 				id: "2F11857AD709E9C9"
