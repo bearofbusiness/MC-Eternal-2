@@ -3267,7 +3267,7 @@
 				{
 					id: "4F77BEC0CC21C029"
 					item: {
-						Count: 1
+						Count: 2
 						id: "ftbquests:lootcrate"
 						tag: {
 							Enchantments: [{
@@ -3297,7 +3297,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 200L
 					currency: "eternalcurrencies:coins"
 					id: "6EE244C19208CA7E"
 					ignore_reward_blocking: true
