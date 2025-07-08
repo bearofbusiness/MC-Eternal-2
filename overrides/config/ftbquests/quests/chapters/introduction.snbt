@@ -3794,7 +3794,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
 					console: true
 					icon: "etched:radio"
 					id: "2B26880DB70189CB"
@@ -3803,7 +3803,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
 					console: true
 					elevate_perms: true
 					icon: "kubejs:mossy_letter"
@@ -3882,7 +3882,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
 					icon: "mekanism:cardboard_box"
 					id: "697FDD5060CAD73D"
 					title: "&dYou've got mail!"
@@ -3935,7 +3935,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
 					console: true
 					elevate_perms: true
 					icon: "mekanism:cardboard_box"
@@ -3945,7 +3945,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
 					console: true
 					elevate_perms: true
 					icon: {
