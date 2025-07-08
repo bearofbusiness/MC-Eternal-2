@@ -21,6 +21,7 @@ ServerEvents.tags("entity_type", event => {
         "irons_spellbooks:priest",
         "irons_spellbooks:cultist",
         "goblintraders:goblin_trader",
+      "goblintraders:vein_goblin_trader",
         "bosses_of_mass_destruction:lich",
         "bosses_of_mass_destruction:gauntlet",
         "bosses_of_mass_destruction:void_blossom",

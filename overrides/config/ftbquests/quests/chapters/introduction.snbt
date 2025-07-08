@@ -5489,16 +5489,9 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:chest_slaye"
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "titles:title_scroll_uncommon"
-					}
+					command: "/titles add {p} titles:chest_slayer"
+					console: true
+					icon: "titles:title_scroll_uncommon"
 					id: "6CEB3FD8B81DAFC6"
 					title: "&eUnlock Title:&r the Chest Slayer"
 					type: "command"

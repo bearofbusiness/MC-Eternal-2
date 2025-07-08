@@ -25,14 +25,14 @@ guanoBurnFuel = true
 # Full stun time calculation is (Base Time) + (a random number between 0 and Random Extra Time)
 #
 #Range: 0 ~ 1000000
-primitiveClubBaseStunTime = 150
+primitiveClubBaseStunTime = 20
 #----------------------------------
 #
 # Random amount of extra time that Primative Club can stun a mob.
 # Full stun time calculation is (Base Time) + (a random number between 0 and Random Extra Time)
 #
 #Range: 0 ~ 1000000
-primitiveClubRandomExtraStunTime = 150
+primitiveClubRandomExtraStunTime = 80
 #----------------------------------
 #
 # Whether to revert the End Story back to its original form when beating Minecraft.
