@@ -23,7 +23,7 @@
       "item": "{id: \"alexscaves:advancement_tab_icon\", Count: 1b}",
       "projectile_count": 1,
       "projectile_interval": 100,
-      "damage": 25,
+      "damage": 205,
       "projectile_distance": 30
     },
     "brutalbosses:aftercombatregen": {
