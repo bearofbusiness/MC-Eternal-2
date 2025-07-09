@@ -3803,7 +3803,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
 					console: true
 					elevate_perms: true
 					icon: "kubejs:mossy_letter"
@@ -3882,7 +3882,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
 					icon: "mekanism:cardboard_box"
 					id: "697FDD5060CAD73D"
 					title: "&dYou've got mail!"
@@ -3929,8 +3929,8 @@
 					exclude_from_claim_all: true
 					icon: "quark:crate"
 					id: "6B1393250318C85B"
-					table_id: 7614141430405098414L
-					title: "{chapter.1.quest.60.reward.2.title}"
+					table_id: 7279712221922706554L
+					title: "&6&oWhat Mom Found At The Market!"
 					type: "loot"
 				}
 				{
