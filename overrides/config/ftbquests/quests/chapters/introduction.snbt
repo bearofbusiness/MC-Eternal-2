@@ -7937,6 +7937,94 @@
 			x: 12.186819727891155d
 			y: 0.329251700680274d
 		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"&dLetter From Mom!&r Oh wow! "
+				"EXPERT MODE!? "
+				"ALREADY?! We are SO proud of you! "
+				"Please be careful!! It is very dangerous out there!! "
+				"The Nether is a seriously scary place! But I trust that you can handle it!!"
+				""
+				"Make sure you wear &oweather appropriate clothing&r and upgrade your glider with a &eNether Upgrade&r"
+				""
+				"Also, I have wonderful news! Your uncle has appeared! He survived the dragon attack after all!!"
+				"He claims he was lucky he brought his &dCat Burger&r curio, otherwise he would've been <shake>TOAST!"
+				""
+				"He brought home some treasure from his travels, please pick your favourite item and use it wisely! "
+				"&dXOXO&r - Your very proud mother!!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:scorched_letter"
+			id: "3731FFBC670F0E3B"
+			incompatible: ["3332943281ADBEF1"]
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "08E8787B7C82A4B8"
+					table_id: 6664182306022005570L
+					title: "{chapter.1.quest.58.reward.2.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "47DD182236A8ED78"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "033F0F69CCDC4F72"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "77037CA60B6FF2E5"
+					ignore_reward_blocking: true
+					title: "&3Pocket Change"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "15309DB51D4A7937"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "lavafishing:prometheus_bounty"
+					id: "46A757E425DD62C2"
+					table_id: 1718805351174656688L
+					title: "&6Uncle's Treasure"
+					type: "choice"
+				}
+			]
+			shape: "heart"
+			subtitle: "{chapter.1.quest.60.subtitle}"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				disable_toast: true
+				icon: "cataclysm:netherite_effigy"
+				id: "284A3E87AC2C9ECD"
+				title: "&cExpert Mode"
+				type: "dimension"
+			}]
+			title: "&6Letter From Mom!"
+			x: 7.0d
+			y: 4.0d
+		}
 	]
 	title: "&6A New Start! &a(Recommended!)"
 }
