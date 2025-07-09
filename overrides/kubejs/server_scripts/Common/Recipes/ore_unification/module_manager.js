@@ -65,10 +65,12 @@ const createModule = (groupName) => {
 ServerEvents.recipes(event => {
 
     for (let [moduleGroup, moduleList] of Object.entries(modules)) {
-        console.log(`Resolving Ore Processing modules for "${moduleGroup}"`)
-        moduleList.first(event) //run "first" module
-        // remove first and subscribe functions from this module.
-        delete moduleList.first
+        console.log(`Resolving Ore Unification modules for "${moduleGroup}"`)
+        if(moduleList.first) {
+            moduleList.first(event) //run "first" module
+            delete moduleList.first //then remove it to prevent it again later
+        }
+        // remove subscribe function from this module.
         delete moduleList.subscribe
         // then run the module.
         for (let [materialType, module] of Object.entries(moduleList)) {
