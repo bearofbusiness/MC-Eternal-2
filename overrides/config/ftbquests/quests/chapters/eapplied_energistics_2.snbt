@@ -2023,7 +2023,7 @@
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: -12.26d
 		}
 		{
@@ -2992,7 +2992,7 @@
 				item: "ae2:cable_interface"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.0d
 			y: -12.26d
 		}
 		{
@@ -3339,6 +3339,80 @@
 			title: "To Infinity"
 			x: 19.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["67F89819C94F591A"]
+			description: [
+				"&eP2P Tunnels&r are a way to move things like Items, Fluids, Chemicals, Redstone Signals, Power, Light and Channels around a &eNetwork&r without them directly interacting with the Network; Acting like portals that directly connect two block faces at range."
+				""
+				"There are many types of P2P Tunnel, but only the &eME P2P Tunnel&r is directly craftable; the others are made by &eRight-Clicking P2P tunnels&r with certain items:"
+				""
+				"&5Channels = any Cable&r"
+				"&cRedstone  = Variety of Redstone Components&r"
+				"&8Item  = Chest or Hopper&r"
+				"&3Fluid  = Bucket or Bottle&r"
+				"&2Chemical = any Chemical Tank&r"
+				"&7Energy = any Energy-containing item&r"
+				"&eLight = Torch or Glowstone&r"
+				"{@pagebreak}"
+				"&eP2P Tunnel&r connections can be &eLinked&r using a &eMemory Card&r, displaying their frequency as a 2x2 array of colors on their back. The P2P Tunnel you &2Shift-Right-Click&r will be the &2Input&r and the P2P Tunnel you &aRight-Click&r will be the &aOutput&r."
+				""
+				"&6Tip:&r Every P2P Tunnel can have &emultiple outputs&r, even when Linked."
+				""
+				"&6Hint:&r If you need further details, or would like an example; &eHold 'G'&r over an P2P Tunnel or consult the in-game &eGuide&r."
+			]
+			id: "4F97D30383CAF71D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "56971A033C33EEB7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Narbacular Drop"
+			tasks: [{
+				id: "25312343B221339A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:me_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:redstone_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:item_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:fe_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "ae2:light_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_p2p_tunnel"
+							}
+						]
+					}
+				}
+				title: "Any P2P Tunnel"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -12.26d
 		}
 	]
 	title: "&6Applied Energistics 2"
