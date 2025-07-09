@@ -19,28 +19,28 @@ createModule("occultism")
         crushMaterialToDust(Item.of(global.preferredOreProducts.dust_other.coal), Item.of("minecraft:coal"), "coal", "coal")
     }
 
-modules.occultism.subscribe("crushed_part", (event, material, product) => {
+modules.occultism.subscribe("crushed_raw", (event, material, product) => {
     //console.log(crushed, part)
-    
+    let crushedPart = `kubejs:${material}_crushed_part`
     event.remove({id: `occultism:crushing/${material}_dust`})
 
-    occultismCrushing(event, Item.of(product, 5), 
+    occultismCrushing(event, Item.of(crushedPart, 5), 
         {tag: `forge:raw_materials/${material}`}, 200, false)
         .id(`mce2:occultism/crushing/raw_${material}_to_crushed_part`)
 
-    occultismCrushing(event, Item.of(product, 10),
+    occultismCrushing(event, Item.of(crushedPart, 10),
         {tag: `forge:ores/${material}`}, 200, false)
         .id(`mce2:occultism/crushing/${material}_dust`)
 
     /*
-    occultismCrushing(event, Item.of(part, 36),
+    occultismCrushing(event, Item.of(crushedPart, 36),
         {tag: `forge:storage_blocks/raw_${ore}`}, 200 * 9, false)
         .id(`mce2:occultism/crushing/raw_${ore}_block_to_crushed_part`)
     */
 
 
-    event.shapeless(crushedRawOres[material], [
-        product, product, product, product
+    event.shapeless(product, [
+        crushedPart, crushedPart, crushedPart, crushedPart
     ]).id(`mce2:crafting/crushed_raw_${material}_assembling`)
 })
 

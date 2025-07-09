@@ -1,9 +1,31 @@
 //priority: 100
 
+//Manager for the Unification Module system
 /*
+    created to help ease of Ore Unification in MC Eternal 2
+    
+    As a convention, any given moduleGroup for a mod and its recipetypes should be in its own file, for ease of disabling if necessary.
+
+    To Use:
+        - initialize a new Group using "createModule(string name)"
+        - call ".subscribe()" on that Group, and pass a a Material Category name, and a function that takes three arguments.
+            - the first argument is the RecipeEventJS
+            - the second is the Material's name
+            - the third is the preferred product for that materialType
+        - from there, the function will be called once for each product in the provided Category.
+            - see "startup_scripts/ore_processing_setup.js", and the "global.preferredOreProducts" object in it if you need a reference.
+            - if you need to reference other types of products, call "global.preferredOreProducts.TYPE[material]", where TYPE is the category you need to reference.
+*/
+
+
+//Example of an individual moduleGroup and its object
+/* 
     occultism: {
         ore_gem: (event) => {
-            
+            //...
+        },
+        raw_material: (event) => {
+            //...
         }
     }
 */
