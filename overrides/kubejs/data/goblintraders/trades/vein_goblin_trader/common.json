@@ -19,7 +19,7 @@
 	  {
   "type": "goblintraders:basic",
   "experience": 4,
-  "max_trades": 5,
+  "max_trades": 1,
   "payment_item": {
     "item": "minecraft:paper",
     "count": 1,
