@@ -50,6 +50,7 @@ StartupEvents.registry("item", event => {
 // created to allow generating recipes which will output preferred materials en masse.
 // also serves as a reference instead of writing literal outputs for these items into recipes.
 global.preferredOreProducts = {
+    //Ingots
     ingot: {
         iron: "minecraft:iron_ingot",
         gold: "minecraft:gold_ingot",
@@ -78,81 +79,81 @@ global.preferredOreProducts = {
         uranium: "mekanism:ingot_uranium",
         brass: "create:brass_ingot"
     },
-    dust: {
-        //Dusts with an associated Ingot
-        metal: {
-            iron: "thermal:iron_dust",
-            gold: "thermal:gold_dust",
-            copper: "thermal:copper_dust",
-            netherite: "thermal:netherite_dust",
-            tin: "thermal:tin_dust",
-            lead: "thermal:lead_dust",
-            silver: "thermal:silver_dust",
-            nickel: "thermal:nickel_dust",
-            steel: "thermal:steel_dust",
-            bronze: "thermal:bronze_dust",
-            electrum: "thermal:electrum_dust",
-            invar: "thermal:invar_dust",
-            constantan: "thermal:constantan_dust",
-            signalum: "thermal:signalum_dust",
-            lumium: "thermal:lumium_dust",
-            enderium: "thermal:enderium_dust",
-            osmium: "mekanism:dust_osmium",
-            uranium: "mekanism:dust_uranium",
-            refined_obsidian: "mekanism:dust_refined_obsidian",
-            iesnium: "occultism:iesnium_dust",
-            zinc: "moremekanismprocessing:dust_zinc"
-        },
-        //Metals that have an associated Ingot and Ore
-        ore_metal: {
-            iron: "thermal:iron_dust",
-            gold: "thermal:gold_dust",
-            copper: "thermal:copper_dust",
-            tin: "thermal:tin_dust",
-            lead: "thermal:lead_dust",
-            silver: "thermal:silver_dust",
-            nickel: "thermal:nickel_dust",
-            osmium: "mekanism:dust_osmium",
-            uranium: "mekanism:dust_uranium",
-            iesnium: "occultism:iesnium_dust",
-            zinc: "moremekanismprocessing:dust_zinc"
-        },
-        //Dusts with an associated Gem
-        gem: {
-            lapis: "thermal:lapis_dust",
-            diamond: "thermal:diamond_dust",
-            emerald: "thermal:emerald_dust",
-            quartz: "thermal:quartz_dust",
-            ruby: "thermal:ruby_dust",
-            sapphire: "thermal:sapphire_dust",
-            certus_quartz: "ae2:certus_quartz_dust",
-            fluix: "ae2:fluix_dust",
-            amethyst: "hexcasting:amethyst_dust",
-            apatite: "thermal:apatite_dust",
-            sulfur: "thermal:sulfur_dust",
-            niter: "thermal:niter_dust",
-            fluorite: "mekanism:dust_fluorite"
-        },
-        //Dusts that have an associated Gem and Ore
-        ore_gem: {
-            lapis: "thermal:lapis_dust",
-            diamond: "thermal:diamond_dust",
-            emerald: "thermal:emerald_dust",
-            quartz: "thermal:quartz_dust",
-            ruby: "thermal:ruby_dust",
-            sapphire: "thermal:sapphire_dust",
-            apatite: "thermal:apatite_dust",
-            sulfur: "thermal:sulfur_dust",
-            niter: "thermal:niter_dust",
-            fluorite: "mekanism:dust_fluorite"
-        },
-        //Other Dusts
-        other: {
-            wood: "thermal:sawdust",
-            obsidian: "create:powdered_obsidian",
-            ender_pearl: "thermal:ender_pearl_dust"
-        }
+    //Dusts with an associated Ingot
+    dust_metal: {
+        iron: "thermal:iron_dust",
+        gold: "thermal:gold_dust",
+        copper: "thermal:copper_dust",
+        netherite: "thermal:netherite_dust",
+        tin: "thermal:tin_dust",
+        lead: "thermal:lead_dust",
+        silver: "thermal:silver_dust",
+        nickel: "thermal:nickel_dust",
+        steel: "thermal:steel_dust",
+        bronze: "thermal:bronze_dust",
+        electrum: "thermal:electrum_dust",
+        invar: "thermal:invar_dust",
+        constantan: "thermal:constantan_dust",
+        signalum: "thermal:signalum_dust",
+        lumium: "thermal:lumium_dust",
+        enderium: "thermal:enderium_dust",
+        osmium: "mekanism:dust_osmium",
+        uranium: "mekanism:dust_uranium",
+        refined_obsidian: "mekanism:dust_refined_obsidian",
+        iesnium: "occultism:iesnium_dust",
+        zinc: "moremekanismprocessing:dust_zinc"
     },
+    //Metals that have an associated Ingot and Ore
+    dust_ore_metal: {
+        iron: "thermal:iron_dust",
+        gold: "thermal:gold_dust",
+        copper: "thermal:copper_dust",
+        tin: "thermal:tin_dust",
+        lead: "thermal:lead_dust",
+        silver: "thermal:silver_dust",
+        nickel: "thermal:nickel_dust",
+        osmium: "mekanism:dust_osmium",
+        uranium: "mekanism:dust_uranium",
+        iesnium: "occultism:iesnium_dust",
+        zinc: "moremekanismprocessing:dust_zinc"
+    },
+    //Dusts with an associated Gem
+    dust_gem: {
+        lapis: "thermal:lapis_dust",
+        diamond: "thermal:diamond_dust",
+        emerald: "thermal:emerald_dust",
+        quartz: "thermal:quartz_dust",
+        ruby: "thermal:ruby_dust",
+        sapphire: "thermal:sapphire_dust",
+        certus_quartz: "ae2:certus_quartz_dust",
+        fluix: "ae2:fluix_dust",
+        amethyst: "hexcasting:amethyst_dust",
+        apatite: "thermal:apatite_dust",
+        sulfur: "thermal:sulfur_dust",
+        niter: "thermal:niter_dust",
+        fluorite: "mekanism:dust_fluorite"
+    },
+    //Dusts that have an associated Gem and Ore
+    dust_ore_gem: {
+        lapis: "thermal:lapis_dust",
+        diamond: "thermal:diamond_dust",
+        emerald: "thermal:emerald_dust",
+        quartz: "thermal:quartz_dust",
+        ruby: "thermal:ruby_dust",
+        sapphire: "thermal:sapphire_dust",
+        apatite: "thermal:apatite_dust",
+        sulfur: "thermal:sulfur_dust",
+        niter: "thermal:niter_dust",
+        fluorite: "mekanism:dust_fluorite"
+    },
+    //Other Dusts
+    dust_other: {
+        coal: "enderio:powdered_coal",
+        wood: "thermal:sawdust",
+        obsidian: "create:powdered_obsidian",
+        ender_pearl: "thermal:ender_pearl_dust"
+    },
+    //Gems
     gem: {
         lapis: "minecraft:lapis_lazuli",
         diamond: "minecraft:diamond",
@@ -167,8 +168,10 @@ global.preferredOreProducts = {
         niter: "thermal:niter",
         sulfur: "thermal:sulfur",
         ruby: "thermal:ruby",
-        sapphire: "thermal:sapphire"
+        sapphire: "thermal:sapphire",
+        jade: "goety:jade"
     },
+    //Raw Ores
     raw_material: {
         iron: "minecraft:raw_iron",
         gold: "minecraft:raw_gold",
@@ -186,6 +189,7 @@ global.preferredOreProducts = {
         cobalt: "tconstruct:raw_cobalt",
         zinc: "create:raw_zinc"
     },
+    //Plates
     plate: {
         iron: "create:iron_sheet",
         gold: "create:gold_sheet",
@@ -208,6 +212,7 @@ global.preferredOreProducts = {
         ostrum: "ad_astra:ostrum_plate",
         calorite: "ad_astra:calorite_plate"
     },
+    //Nuggets
     nugget: {
         iron: 'minecraft:iron_nugget', 
         gold: 'minecraft:gold_nugget',
@@ -236,6 +241,7 @@ global.preferredOreProducts = {
         zinc: 'create:zinc_nugget', 
         brass: 'create:brass_nugget'
     },
+    //Blocks that require 9 of an item
     blocks_9: {
         iron: 'minecraft:iron_block',
         gold: 'minecraft:gold_block',
@@ -276,11 +282,13 @@ global.preferredOreProducts = {
         ostrum: "ad_astra:ostrum_block",
         calorite: "ad_astra:calorite_block"
     },
+    //Blocks that require 4 of an item
     blocks_4: {
         quartz: "minecraft:quartz_block",
         amethyst: "minecraft:amethyst_block",
         source_gem: "ars_nouveau:source_gem_block"
     },
+    //Raw Ore Blocks
     raw_block: {
         iron: 'minecraft:raw_iron_block',
         copper: 'minecraft:raw_copper_block',
@@ -298,13 +306,16 @@ global.preferredOreProducts = {
         ostrum: 'ad_astra:raw_ostrum_block',
         calorite: 'ad_astra:raw_calorite_block'
     },
+    //Crushed Parts
+    // generated by Kube so there's only one set, all from it, but still good for reference
     crushed_part: {
 
     }
 }
 
 
-//Ensure that this persists through reloads
+//Generate crushed part IDs
+// Running it here as opposed to during item registry ensures that it regenerates and persists through reloads
 global.processableOreNames.forEach(ore => {
     global.preferredOreProducts.crushed_part[ore] = `kubejs:${ore}_crushed_part`
 })
