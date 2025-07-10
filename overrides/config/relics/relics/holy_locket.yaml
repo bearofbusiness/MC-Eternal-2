@@ -2,7 +2,7 @@ abilitiesData:
     abilities:
         belief:
             # Highest level to which the ability can be upgraded
-            maxLevel: 10
+            maxLevel: 1
             # Relic level at which the ability becomes unlocked
             requiredLevel: 0
             # Number of leveling points needed to increase the ability level
@@ -12,7 +12,7 @@ abilitiesData:
                     # Maximum base value of the stat. A random value within this range is assigned when the relic is first created
                     maxInitialValue: 0.15
                     # Maximum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
-                    maxThresholdValue: 1.0
+                    maxThresholdValue: 0.5
                     # Minimum base value of the stat. A random value within this range is assigned when the relic is first created
                     minInitialValue: 0.05
                     # Minimum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
@@ -82,7 +82,7 @@ abilitiesData:
                     upgradeOperation: ADD
         repentance:
             # Highest level to which the ability can be upgraded
-            maxLevel: 10
+            maxLevel: 1
             # Relic level at which the ability becomes unlocked
             requiredLevel: 10
             # Number of leveling points needed to increase the ability level
@@ -108,9 +108,9 @@ abilitiesData:
                     upgradeOperation: ADD
                 radius:
                     # Maximum base value of the stat. A random value within this range is assigned when the relic is first created
-                    maxInitialValue: 3.0
+                    maxInitialValue: 1.0
                     # Maximum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
-                    maxThresholdValue: 4.0
+                    maxThresholdValue: 1.5
                     # Minimum base value of the stat. A random value within this range is assigned when the relic is first created
                     minInitialValue: 1.5
                     # Minimum threshold value for the stat, representing hard limits that cannot be surpassed through ability level upgrades or other methods
@@ -126,7 +126,7 @@ abilitiesData:
                     upgradeOperation: ADD
         blessing:
             # Highest level to which the ability can be upgraded
-            maxLevel: 5
+            maxLevel: 1
             # Relic level at which the ability becomes unlocked
             requiredLevel: 15
             # Number of leveling points needed to increase the ability level
@@ -152,7 +152,7 @@ abilitiesData:
                     upgradeOperation: ADD
 levelingData:
     # Amount of experience required to level up to relic level 1
-    initialCost: 250
+    initialCost: 950
     # Maximum level of the relic
     maxLevel: 15
     # Increment in experience required for each subsequent level of the relic

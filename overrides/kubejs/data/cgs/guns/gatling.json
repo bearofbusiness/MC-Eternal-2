@@ -12,7 +12,7 @@
     "reloadAmount": 10,
     "recoilAngle": 2.0,
     "recoilKick": 0.8,
-    "damage": 16.0,
+    "damage": 20.0,
     "alwaysSpread": true,
     "spread": 1.5,
     "ammo": [

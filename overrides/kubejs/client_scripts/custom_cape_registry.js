@@ -13,7 +13,8 @@ CapeJS.addCapes(event => {
   event.register("473d39c3-be18-4964-abd9-2787da95cd51", "friend");
   event.register("9d7f4217-ab8f-4bb6-a034-27b40b7524db", "friend");
   event.register("4b654283-2889-4ce2-aeac-5e6311d0c058", "friend");
-  event.register("a9dbdb3a-441a-4cfe-a28b-c508436140b3", "friend");
+  event.register("a9dbdb3a-441a-4cfe-a28b-c508436140b3", "friend"); 
+  event.register("95ae1b67-1ee6-4ff7-ae21-b7773415f7e1", "friend"); 
   event.register("c5d2d329-a8e8-428c-bd62-3491d7064087", "friend");
   event.register("fabd0a49-3695-401c-9990-d95464632a6a", "friend");
   event.register("00d2ad55-6151-4296-a461-373a763a9810", "friend");
@@ -21,4 +22,6 @@ CapeJS.addCapes(event => {
   event.register("bbb87dbe-690f-4205-bdc5-72ffb8ebc29d", "friend");
   event.register("4678f165-1484-4cb3-a45c-9c03d2a9c8a4", "friend");
   event.register("dd700fd2-dd9f-439b-97a8-784f338b0afd", "friend");
+  event.register("4aa5155e-f914-4b2d-8dd5-595a8bbe9c8f", "friend");
+  event.register("b566f842-f44a-414e-8092-4271cbb11c27", "friend");
 });

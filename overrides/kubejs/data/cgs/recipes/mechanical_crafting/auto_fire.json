@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "C": {
+      "item": "immersive_aircraft:engine"
+    },
+    "L": {
+      "item": "create:sturdy_sheet"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    "SAMC",
+    "SLL "
+  ],
+  "result": {
+    "item": "cgs:auto_fire"
+  }
+}

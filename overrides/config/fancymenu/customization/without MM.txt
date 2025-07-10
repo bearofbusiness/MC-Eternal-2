@@ -530,7 +530,7 @@ element {
 
 element {
   interactable = true
-  source = &dMCE2 &dVersion &d1.1.0.0
+  source = &dMCE2 &dVersion &d1.1.0.3
   source_mode = direct
   shadow = true
   scale = 1.0

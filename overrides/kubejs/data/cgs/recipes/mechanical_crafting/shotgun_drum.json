@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "L": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "pattern": [
+    "LSLLSL",
+    "SCSSCS",
+    "LSLLSL"
+  ],
+  "result": {
+    "item": "cgs:shotgun_drum"
+  }
+}

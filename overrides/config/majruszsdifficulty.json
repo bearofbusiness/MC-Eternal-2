@@ -352,19 +352,19 @@
       "health_bonus": {
         "__default": 0.0,
         "expert": 0.1,
-        "master": 0.5
+        "master": 0.2
       },
       "damage_bonus": {
         "__default": 0.0,
         "expert": 0.2,
-        "master": 1.5
+        "master": 0.3
       },
       "excluded_mobs": []
     },
     "pillager_with_fireworks": {
       "is_enabled": true,
       "required_game_stage": "master",
-      "chance": 0.5,
+      "chance": 1.0,
       "is_scaled_by_crd": true,
       "crossbow_multishot_chance": 0.25,
       "firework_drop_chance": 0.25,

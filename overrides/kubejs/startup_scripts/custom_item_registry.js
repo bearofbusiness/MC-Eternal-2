@@ -56,6 +56,12 @@ StartupEvents.registry("item", event => {
 
   event.create("corporea_crystal")
     .tooltip(Text.translate("item.kubejs.corporea_crystal.desc").color("light_purple"))
+
+
+  
+  //Icons for Ponders
+  event.create("icon_yes")
+  event.create("icon_no")
   
 })
 

@@ -1,0 +1,28 @@
+{
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "alexscaves"
+  },
+  "default": [
+    {
+      "level": 1,
+      "name": "tconstruct:magnetic"
+    },
+    {
+      "level": 1,
+      "name": "tinkertantrum:ferromagnetic"
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "tconstruct:projectile_protection"
+      },
+      {
+        "level": 1,
+        "name": "tinkertantrum:ferromagnetic"
+      }
+    ]
+  }
+}

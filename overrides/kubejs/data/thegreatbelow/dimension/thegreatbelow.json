@@ -41,30 +41,8 @@
             "offset": 0.0
           }
         },
-        {
-          "biome": "alexscaves:toxic_caves",
-          "parameters": {
-            "temperature": 0.6,
-            "humidity": 0.45,
-            "continentalness": 0.35,
-            "erosion": 0.25,
-            "depth": 0.0,
-            "weirdness": 0.6,
-            "offset": 0.0
-          }
-        },
-        {
-          "biome": "netherexp:black_ice_glaciers",
-          "parameters": {
-            "temperature": 0.3,
-            "humidity": 0.9,
-            "continentalness": 0.6,
-            "erosion": 0.6,
-            "depth": 0.0,
-            "weirdness": -0.2,
-            "offset": 0.0
-          }
-        },
+     
+        
         {
           "biome": "alexscaves:forlorn_hollows",
           "parameters": {

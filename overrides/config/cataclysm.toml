@@ -8,7 +8,7 @@
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
 	#Forced viewpoint change when hit by a grab attack
-	"setThirdPerson(on/off)" = true
+	"setThirdPerson(on/off)" = false
 	#Forced viewpoint change when hit by a grab attack
 	"setFirstPerson(on/off)" = true
 
@@ -23,7 +23,7 @@
 	GauntletOfBulwarkCooldown = 80
 	#Infernal Forge's Cooldown
 	#Range: 0 ~ 1000000
-	InfernalForgeCooldown = 80
+	InfernalForgeCooldown = 40
 	#Void Forge's Cooldown
 	#Range: 0 ~ 1000000
 	VoidForgeCooldown = 80
@@ -152,10 +152,10 @@
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianHealthMultiplier = 5.5
+	EnderGuardianHealthMultiplier = 4.0
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageMultiplier = 6.0
+	EnderGuardianDamageMultiplier = 2.5
 	#EnderGuardian's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianDamageCap = 52.0
@@ -178,7 +178,7 @@
 	"Guardian's knockback Hp Damage" = 0.06
 	#Guardian's Uppercut Hp Damage
 	#Range: 0.0 ~ 1.0
-	"Guardian's Uppercut Hp Damage" = 0.1
+	"Guardian's Uppercut Hp Damage" = 0.5
 	#Guardian's RocketPunch Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Guardian's RocketPunch Hp Damage" = 0.1
@@ -207,7 +207,7 @@
 	Lavabombamount = 3
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 1.6
+	MonstrosityHealthMultiplier = 1.7
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityDamageMultiplier = 6.6
@@ -227,7 +227,7 @@
 	"Monstrosity's attack Hp Damage" = 0.08
 	#Monstrosity's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Monstrosity's prevent attacks from far away Range" = 10.0
+	"Monstrosity's prevent attacks from far away Range" = 15.0
 	#Monstrosity's block breaking ignore the MobGriefing
 	monstrosityBlockBreaking = true
 	#Monstrosity's DamageTime
@@ -256,10 +256,10 @@
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 1.9
+	IgnisHealthMultiplier = 2.3
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 4.4
+	IgnisDamageMultiplier = 3.5
 	#Ignis's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	IgnisNatureHealing = 10.0
@@ -331,10 +331,10 @@
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanHealthMultiplier = 1.8
+	LeviathanHealthMultiplier = 2.2
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageMultiplier = 4.6
+	LeviathanDamageMultiplier = 3.7
 	#Leviathan's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	LeviathanNatureHealing = 10.0
@@ -459,10 +459,10 @@
 	AptrgangrHealthMultiplier = 2.5
 	#Aptrgangr's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AptrgangrDamageMultiplier = 2.5
+	AptrgangrDamageMultiplier = 1.8
 	#Axe Blade's Damage
 	#Range: 0.0 ~ 1000000.0
-	AptrgangrAxeBladeDamage = 42.0
+	AptrgangrAxeBladeDamage = 50.0
 
 [Maledictus]
 	#Maledictus's Health Multiplier
@@ -470,10 +470,10 @@
 	MaledictusHealthMultiplier = 1.8
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageMultiplier = 8.0
+	MaledictusDamageMultiplier = 4.0
 	#Maledictus's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Maledictus's prevent attacks from far away Range" = 12.0
+	"Maledictus's prevent attacks from far away Range" = 15.0
 	#Maledictus's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	MaledictusNatureHealing = 10.0

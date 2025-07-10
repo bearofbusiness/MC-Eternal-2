@@ -3839,144 +3839,135 @@
 			hide_until_deps_visible: true
 			id: "4FF7C485A4E5EA9C"
 			optional: true
-			rewards: [
-				{
-					id: "3291AAD9FC09CCDB"
-					item: {
-						Count: 1
-						id: "eccentrictome:tome"
-						tag: {
-							Enchantments: [ ]
-							"eccentrictome:mods": {
-								ae2: {
-									0: {
-										Count: 1b
-										id: "ae2:guide"
-										tag: {
-											Enchantments: [ ]
-										}
+			rewards: [{
+				id: "3291AAD9FC09CCDB"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						Enchantments: [ ]
+						"eccentrictome:mods": {
+							ae2: {
+								0: {
+									Count: 1b
+									id: "ae2:guide"
+									tag: {
+										Enchantments: [ ]
 									}
 								}
-								alexscaves: {
-									0: {
-										Count: 1b
-										id: "alexscaves:cave_book"
-										tag: {
-											Enchantments: [ ]
-										}
+							}
+							alexscaves: {
+								0: {
+									Count: 1b
+									id: "alexscaves:cave_book"
+									tag: {
+										Enchantments: [ ]
 									}
 								}
-								alexsmobs: {
-									0: {
-										Count: 1b
-										id: "alexsmobs:animal_dictionary"
+							}
+							alexsmobs: {
+								0: {
+									Count: 1b
+									id: "alexsmobs:animal_dictionary"
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							cloudstorage: {
+								0: {
+									Count: 1b
+									id: "cloudstorage:guide_book"
+								}
+							}
+							complicated_bees: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "complicated_bees:field_guide"
 									}
 								}
-								ars_nouveau: {
-									0: {
-										Count: 1b
-										id: "ars_nouveau:worn_notebook"
+							}
+							ftbquests: {
+								0: {
+									Count: 1b
+									id: "ftbquests:book"
+								}
+							}
+							goety: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "goety:black_book"
 									}
 								}
-								cloudstorage: {
-									0: {
-										Count: 1b
-										id: "cloudstorage:guide_book"
+							}
+							hexcasting: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "hexcasting:thehexbook"
 									}
 								}
-								complicated_bees: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "complicated_bees:field_guide"
-										}
-									}
+							}
+							iceandfire: {
+								0: {
+									Count: 1b
+									id: "iceandfire:bestiary"
 								}
-								ftbquests: {
-									0: {
-										Count: 1b
-										id: "ftbquests:book"
-									}
+							}
+							tconstruct: {
+								0: {
+									Count: 1b
+									id: "tconstruct:encyclopedia"
 								}
-								goety: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "goety:black_book"
-										}
-									}
+								1: {
+									Count: 1b
+									id: "tconstruct:materials_and_you"
 								}
-								hexcasting: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "hexcasting:thehexbook"
-										}
-									}
+								2: {
+									Count: 1b
+									id: "tconstruct:mighty_smelting"
 								}
-								iceandfire: {
-									0: {
-										Count: 1b
-										id: "iceandfire:bestiary"
-									}
+								3: {
+									Count: 1b
+									id: "tconstruct:tinkers_gadgetry"
 								}
-								tconstruct: {
-									0: {
-										Count: 1b
-										id: "tconstruct:encyclopedia"
-									}
-									1: {
-										Count: 1b
-										id: "tconstruct:materials_and_you"
-									}
-									2: {
-										Count: 1b
-										id: "tconstruct:mighty_smelting"
-									}
-									3: {
-										Count: 1b
-										id: "tconstruct:tinkers_gadgetry"
-									}
-									4: {
-										Count: 1b
-										id: "tconstruct:fantastic_foundry"
-									}
-									5: {
-										Count: 1b
-										id: "tconstruct:puny_smelting"
-									}
+								4: {
+									Count: 1b
+									id: "tconstruct:fantastic_foundry"
 								}
-								tinkersjewelry: {
-									0: {
-										Count: 1b
-										id: "tinkersjewelry:book"
-										tag: {
-											Enchantments: [ ]
-											mantle: {
-												book: {
-													current_page: "modifiers.group_slotless"
-												}
+								5: {
+									Count: 1b
+									id: "tconstruct:puny_smelting"
+								}
+							}
+							tinkersjewelry: {
+								0: {
+									Count: 1b
+									id: "tinkersjewelry:book"
+									tag: {
+										Enchantments: [ ]
+										mantle: {
+											book: {
+												current_page: "modifiers.group_slotless"
 											}
 										}
 									}
 								}
 							}
-							"eccentrictome:version": 1
 						}
+						"eccentrictome:version": 1
 					}
-					type: "item"
 				}
-				{
-					amount: 50L
-					currency: "eternalcurrencies:coins"
-					id: "1C5935080CBE7B04"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+				type: "item"
+			}]
 			size: 0.6d
 			subtitle: "Craft the &eEccentric Tome"
 			tasks: [{
@@ -5338,16 +5329,9 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:chest_slaye"
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "titles:title_scroll_uncommon"
-					}
+					command: "/titles add {p} titles:chest_slayer"
+					console: true
+					icon: "titles:title_scroll_uncommon"
 					id: "6CEB3FD8B81DAFC6"
 					title: "&eUnlock Title:&r the Chest Slayer"
 					type: "command"
@@ -6810,7 +6794,7 @@
 				""
 				"&eTip:&r It is normal to feel overwhelmed when starting a new modpack, especially one as large and comprehensive as MC Eternal. I would suggest taking your time and slowly going through the Quest Book at your own pace. "
 				""
-				"You could play the game as if it were Vanilla and slowly learn new mechanics as you progress, that way you might feel less overwhelm with all of the options."
+				"You could play the game as if it were Vanilla and slowly learn new mechanics as you progress, that way you might feel less overwhelmed from all the options."
 				""
 				"But most importantly try to play the game in a way that you enjoy and try not to worry too much on your first playthrough!"
 			]
@@ -7801,6 +7785,94 @@
 			title: "&6Enchantments 4 Dayz!"
 			x: 12.186819727891155d
 			y: 0.329251700680274d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"&dLetter From Mom!&r Oh wow! "
+				"EXPERT MODE!? "
+				"ALREADY?! We are SO proud of you! "
+				"Please be careful!! It is very dangerous out there!! "
+				"The Nether is a seriously scary place! But I trust that you can handle it!!"
+				""
+				"Make sure you wear &oweather appropriate clothing&r and upgrade your glider with a &eNether Upgrade&r"
+				""
+				"Also, I have wonderful news! Your uncle has appeared! He survived the dragon attack after all!!"
+				"He claims he was lucky he brought his &dCat Burger&r curio, otherwise he would've been <shake>TOAST!"
+				""
+				"He brought home some treasure from his travels, please pick your favourite item and use it wisely! "
+				"&dXOXO&r - Your very proud mother!!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:scorched_letter"
+			id: "3731FFBC670F0E3B"
+			incompatible: ["3332943281ADBEF1"]
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "08E8787B7C82A4B8"
+					table_id: 6664182306022005570L
+					title: "{chapter.1.quest.58.reward.2.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "47DD182236A8ED78"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "033F0F69CCDC4F72"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "77037CA60B6FF2E5"
+					ignore_reward_blocking: true
+					title: "&3Pocket Change"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "15309DB51D4A7937"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "lavafishing:prometheus_bounty"
+					id: "46A757E425DD62C2"
+					table_id: 1718805351174656688L
+					title: "&6Uncle's Treasure"
+					type: "choice"
+				}
+			]
+			shape: "heart"
+			subtitle: "{chapter.1.quest.60.subtitle}"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				disable_toast: true
+				icon: "cataclysm:netherite_effigy"
+				id: "284A3E87AC2C9ECD"
+				title: "&cExpert Mode"
+				type: "dimension"
+			}]
+			title: "&6Letter From Mom!"
+			x: 7.0d
+			y: 4.0d
 		}
 	]
 	title: "&6A New Start! &a(Recommended!)"

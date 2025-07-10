@@ -1,4 +1,13 @@
 [
+    {
+       "mob": "minecraft:warden",
+    "dimension": "thegreatbelow:thegreatbelow",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 10.0,
+    "damagemultiply": 8.5,
+    "speedmultiply": 1.5
+  },
 {
     "dimension": "thegreatbelow:thegreatbelow",
     "mob": "alexsmobs:skreecher",
@@ -56,6 +65,14 @@
     "damagemultiply": 15.5,
     "speedmultiply": 1.5
   },
+     {
+    "mob": "ghastcow:ghast_cow",
+    "when": "finalize",
+    "result": "allow",
+    "healthmultiply": 8.5,
+    "damagemultiply": 25.5,
+    "speedmultiply": 1.5
+  },
     {
     "mob": "specialmobs:queenghast",
     "when": "finalize",
@@ -87,13 +104,13 @@
     "when": "finalize",
     "result": "allow",
     "healthmultiply": 2.5,
-    "damagemultiply": 1.5,
+    "damagemultiply": 2.5,
     "speedmultiply": 1.1
   },
 
     {
     "mob": "artifacts:mimic",
-    "when": "onjoin",
+    "when": "finalize",
     "result": "allow",
     "healthmultiply": 1.5,
     "damagemultiply": 2.5,
@@ -102,7 +119,7 @@
 
   {
     "mob": "goety:storm_caster",
-    "when": "onjoin",
+    "when": "finalize",
     "result": "allow",
     "healthmultiply": 3.5,
     "damagemultiply": 4.5,
@@ -111,12 +128,14 @@
 
   {
     "mod": "alshanex_familiars:",
-    "when": "onjoin",
+    "when": "finalize",
     "result": "allow",
-    "healthmultiply": 4.6,
+    "healthmultiply": 6.6,
     "damagemultiply": 1.5,
     "speedmultiply": 1.1
   },
+
+  
   
   {
     "mod": "illager_additions",
@@ -137,7 +156,7 @@
   },
   {
     "mod": "cloudstorage",
-    "when": "onjoin",
+    "when": "finalize",
     "result": "allow",
     "healthmultiply": 1.5,
     "damagemultiply": 2.0,
@@ -145,7 +164,7 @@
   },
 {
     "mod": "goety_cataclysm",
-    "when": "onjoin",
+    "when": "finalize",
     "result": "allow",
     "healthmultiply": 2.0,
     "damagemultiply": 1.5,
@@ -171,7 +190,7 @@
   },
   {
     "mod": "alexscaves",
-    "when": "onjoin",
+    "when": "finalize",
     "result": "allow",
     "healthmultiply": 2.5,
     "damagemultiply": 4.5,
@@ -474,13 +493,25 @@
     "damagemultiply": 2.8,
     "speedmultiply": 1.0
   },
-  {
+  
+
+      {
     "dimension": "thegreatbelow:thegreatbelow",
-    "mob": "minecraft:warden",
+    "mod": "alexscaves",
     "when": "finalize",
-    "healthmultiply": 10.0,
-    "damagemultiply": 8.5,
-    "speedmultiply": 1.5
+    "healthmultiply": 3.5,
+    "damagemultiply": 2.5,
+    "speedmultiply": 1.1
+  },
+
+  
+      {
+    "dimension": "thegreatbelow:thegreatbelow",
+    "mod": "alexsmobs",
+    "when": "finalize",
+    "healthmultiply": 2.5,
+    "damagemultiply": 3.5,
+    "speedmultiply": 1.1
   },
       {
     "dimension": "thegreatbelow:thegreatbelow",
@@ -492,7 +523,7 @@
   },
    {
     "mob": "alexsmobs:laviathan",
-    "when": "onjoin",
+    "when": "finalize",
     "healthmultiply": 4.0,
     "damagemultiply": 4.5,
     "speedmultiply": 1.0
