@@ -3124,6 +3124,8 @@
 			description: [
 				"{chapter.1.quest.46.description.1}"
 				"{image:modpack:textures/2023-08-15_19.32.57.png width:180 height:100 align:1}"
+				""
+				"{chapter.1.quest.46.description.2}"
 			]
 			id: "50C0CB1FA648F8A8"
 			rewards: [
@@ -3168,14 +3170,10 @@
 			size: 0.9d
 			subtitle: "{chapter.1.quest.46.subtitle}"
 			tasks: [{
-				hasCustomPicture: false
-				icon: "goety:necro_brazier"
-				id: "720DF859448D4F71"
-				ignoreState: false
-				layer: true
-				name: "brazier"
-				rightclick: false
-				type: "questsadditions:structure"
+				advancement: "brazier:brazier"
+				criterion: ""
+				id: "4DDE27AE90F2208F"
+				type: "advancement"
 			}]
 			title: "{chapter.1.quest.46.title}"
 			x: 16.800680272108842d
