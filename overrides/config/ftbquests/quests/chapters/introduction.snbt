@@ -5601,7 +5601,7 @@
 					id: "rats:cheese"
 					tag: {
 						display: {
-							Lore: ["{\"text\":\"He wasn't going to kill you with that kitchen kife silly! He was just preparing you a slice of cheese!\"}"]
+							Lore: ["{\"text\":\"He wasn't going to kill you with that kitchen knife silly! He was just preparing you a slice of cheese!\"}"]
 						}
 					}
 				}
