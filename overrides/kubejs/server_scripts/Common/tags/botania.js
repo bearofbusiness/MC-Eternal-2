@@ -12,4 +12,7 @@ ServerEvents.tags("item", event => {
     ])
 
     event.add("mce2:botania/petal_apothecary", /botania:apothecary_.*/)
+
+    //bad workaround for botania flowers getting random pulled from the "minecraft:small_flowers" tag by certain sources
+    event.remove("minecraft:small_flowers", ["#botania:special_flowers"])
 })
