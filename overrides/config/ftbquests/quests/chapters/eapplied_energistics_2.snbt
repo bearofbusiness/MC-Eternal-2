@@ -752,7 +752,7 @@
 					type: "item"
 				}
 				{
-					amount: 80L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "618C2DB45D46767D"
 					ignore_reward_blocking: true
@@ -784,7 +784,7 @@
 			]
 			id: "35BF66CD4FAE83DE"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "23F66DC87C0CCDDD"
 				ignore_reward_blocking: true
@@ -823,7 +823,7 @@
 			]
 			id: "33EE235B3C35EE49"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "1B8A8210D6C23691"
 				ignore_reward_blocking: true
@@ -859,7 +859,7 @@
 			]
 			id: "0F049DA208BF4053"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "5FC436111F11696C"
 				ignore_reward_blocking: true
@@ -901,7 +901,7 @@
 			]
 			id: "2F7DE4928A6825D4"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "00F4145C1B9A1ABF"
 				ignore_reward_blocking: true
@@ -928,7 +928,7 @@
 			]
 			id: "31977C760DC1FC77"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "5DBAC375E894FCE6"
 				ignore_reward_blocking: true
@@ -957,7 +957,7 @@
 			id: "0DCF79D83ADEF1BF"
 			optional: true
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "10B7F18DB5DCBC0D"
 				ignore_reward_blocking: true
@@ -978,7 +978,7 @@
 			id: "6DF2B5559A688FBF"
 			optional: true
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "263757C21B161E41"
 				ignore_reward_blocking: true
@@ -1040,7 +1040,7 @@
 					type: "item"
 				}
 				{
-					amount: 40L
+					amount: 10L
 					currency: "eternalcurrencies:coins"
 					id: "050F000C1545E04B"
 					ignore_reward_blocking: true
@@ -1106,7 +1106,7 @@
 			]
 			id: "7D247A72BC4EC1A3"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "0B1C56F13720C264"
 				ignore_reward_blocking: true
@@ -1133,7 +1133,7 @@
 			]
 			id: "607B99F14104C94C"
 			rewards: [{
-				amount: 40L
+				amount: 10L
 				currency: "eternalcurrencies:coins"
 				id: "7CCFAF0252F25766"
 				ignore_reward_blocking: true
@@ -1210,7 +1210,7 @@
 					type: "item"
 				}
 				{
-					amount: 300L
+					amount: 200L
 					currency: "eternalcurrencies:coins"
 					id: "197C1B27983277A8"
 					ignore_reward_blocking: true
@@ -1249,7 +1249,7 @@
 			icon: "ae2:fluix_glass_cable"
 			id: "563E2BEF024962AD"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "55FF51D69DEE7203"
 				ignore_reward_blocking: true
@@ -1286,7 +1286,7 @@
 			id: "5A4036C94C8C7485"
 			min_required_tasks: 1
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "0DD582D1DB99364E"
 				ignore_reward_blocking: true
@@ -1461,7 +1461,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "542F817E22153714"
 					ignore_reward_blocking: true
@@ -1519,7 +1519,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "609C70B11ECF1FA9"
 					ignore_reward_blocking: true
@@ -1629,7 +1629,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "66D2058D2296DE13"
 					ignore_reward_blocking: true
@@ -1662,7 +1662,7 @@
 			]
 			id: "44FECE9717443836"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "66006B299DA1FD29"
 				ignore_reward_blocking: true
@@ -1693,7 +1693,7 @@
 			]
 			id: "6CB2052755C8ABC1"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "5E2505BDB478063D"
 				ignore_reward_blocking: true
@@ -1718,7 +1718,7 @@
 			description: ["Your &bStorage Network&r can also accept &eChemicals&r, the cells act identically to their &eFluid&r counterparts and as such the advice for them applies here as well."]
 			id: "7A08C9D3CE872BE5"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "334A01B7D5641591"
 				ignore_reward_blocking: true
@@ -1789,7 +1789,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "08465F1FBEB37CD6"
 					ignore_reward_blocking: true
@@ -1822,7 +1822,7 @@
 			]
 			id: "63FEA2EF6977B017"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "70C9B79DC34B3D8A"
 				ignore_reward_blocking: true
@@ -1875,7 +1875,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "2226277DC3814E6A"
 					ignore_reward_blocking: true
@@ -1945,7 +1945,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "0D11FA05EBD409BB"
 					ignore_reward_blocking: true
@@ -1978,7 +1978,7 @@
 			]
 			id: "7C914E8C3B3778D1"
 			rewards: [{
-				amount: 40L
+				amount: 20L
 				currency: "eternalcurrencies:coins"
 				id: "5A81E712F1057280"
 				ignore_reward_blocking: true
@@ -2011,7 +2011,7 @@
 			]
 			id: "3E8E4F3540AE38AD"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "41E42B619AD11FF2"
 				ignore_reward_blocking: true
@@ -2037,7 +2037,7 @@
 			]
 			id: "5B9A6A9F0F1EDEA7"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "339143EBC547C3F7"
 				ignore_reward_blocking: true
@@ -2136,7 +2136,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "40C48372D13BE3F4"
 					ignore_reward_blocking: true
@@ -2237,7 +2237,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "6EAEEE2E34C6D712"
 					ignore_reward_blocking: true
@@ -2275,7 +2275,7 @@
 			id: "7602ADB464628384"
 			optional: true
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "35554DDD674A723D"
 				ignore_reward_blocking: true
@@ -2307,7 +2307,7 @@
 			]
 			id: "22B6724C52A81603"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "2AC8B5DB3EB0ABD1"
 				ignore_reward_blocking: true
@@ -2338,7 +2338,7 @@
 			]
 			id: "034F0C238E6C785E"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "21967AC688788436"
 				ignore_reward_blocking: true
@@ -2397,7 +2397,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "1DF6A4F960490A30"
 					ignore_reward_blocking: true
@@ -2450,7 +2450,7 @@
 			]
 			id: "3F8668A1E774B8A6"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "52D9E8BA0CDBC2F2"
 				ignore_reward_blocking: true
@@ -2517,7 +2517,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "1F56F8C02059B72B"
 					ignore_reward_blocking: true
@@ -2551,7 +2551,7 @@
 			]
 			id: "5E2984EF36314A88"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "16CC4049103D4871"
 				ignore_reward_blocking: true
@@ -2571,7 +2571,7 @@
 			description: ["The &eminimum for most strucures&r, &4But not our maxmium...&r"]
 			id: "76D949C432FF4DAB"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "1935F8ED0505B636"
 				ignore_reward_blocking: true
@@ -2595,7 +2595,7 @@
 			]
 			id: "59A1722D0380D230"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "4B3F0F255794FFAE"
 				ignore_reward_blocking: true
@@ -2682,7 +2682,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "7574130DCB3E6E0E"
 					ignore_reward_blocking: true
@@ -2724,7 +2724,7 @@
 			]
 			id: "27EEB6AA40D3EB18"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "2F7C3398521BF11A"
 				ignore_reward_blocking: true
@@ -2767,7 +2767,7 @@
 			]
 			id: "591F6FACE42A8C85"
 			rewards: [{
-				amount: 80L
+				amount: 20L
 				currency: "eternalcurrencies:coins"
 				id: "389120462F938C90"
 				ignore_reward_blocking: true
@@ -2797,7 +2797,7 @@
 			icon: "minecraft:brewing_stand"
 			id: "37ED052F5D0295A2"
 			rewards: [{
-				amount: 40L
+				amount: 10L
 				currency: "eternalcurrencies:coins"
 				id: "6CD71AA61A5CE579"
 				ignore_reward_blocking: true
@@ -2833,7 +2833,7 @@
 			icon: "thermal:machine_furnace"
 			id: "44B5442523858453"
 			rewards: [{
-				amount: 40L
+				amount: 10L
 				currency: "eternalcurrencies:coins"
 				id: "24DC62B7AFC036D6"
 				ignore_reward_blocking: true
@@ -2891,7 +2891,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "210F8DBE378F4A6C"
 					ignore_reward_blocking: true
@@ -2953,7 +2953,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "373A018594B431AF"
 					ignore_reward_blocking: true
@@ -2980,7 +2980,7 @@
 			]
 			id: "3C1FCDBD42DF0427"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "2AD1374BD29D95E5"
 				ignore_reward_blocking: true
@@ -3000,7 +3000,7 @@
 			description: ["&eMatter Balls&r are constructed through the compressing of &e256 Items/Buckets&r each, only requiring an &e1K ME Storage Component&r to allow their production in the &eMatter Condenser&r."]
 			id: "4C2DEDE6A0636F90"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "49F14EFEDAAF107A"
 				ignore_reward_blocking: true
@@ -3028,7 +3028,7 @@
 			]
 			id: "3F512C07B5DB53AF"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "37829A7E51529A77"
 				ignore_reward_blocking: true
@@ -3054,7 +3054,7 @@
 			]
 			id: "7C084B05C5DE6101"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "08C2D4949804E465"
 				ignore_reward_blocking: true
@@ -3084,7 +3084,7 @@
 			]
 			id: "0799774F5E323334"
 			rewards: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "0E63ECC19B0EF4A2"
 				ignore_reward_blocking: true
@@ -3112,7 +3112,7 @@
 			]
 			id: "58E7B8912E34C67E"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "0609A3E88A405BFB"
 				ignore_reward_blocking: true
@@ -3136,7 +3136,7 @@
 			]
 			id: "1E92535385E26C8D"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "1393ECB297F0A5D2"
 				ignore_reward_blocking: true
@@ -3164,7 +3164,7 @@
 			]
 			id: "5CF065DD209B4B1C"
 			rewards: [{
-				amount: 40L
+				amount: 10L
 				currency: "eternalcurrencies:coins"
 				id: "4FF59D4104E4CC58"
 				ignore_reward_blocking: true
@@ -3228,7 +3228,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "548DFB6801B17277"
 					ignore_reward_blocking: true
@@ -3324,7 +3324,7 @@
 			]
 			id: "1A7B7ADC6B65A48F"
 			rewards: [{
-				amount: 40L
+				amount: 10L
 				currency: "eternalcurrencies:coins"
 				id: "17C0AE16913B87AB"
 				ignore_reward_blocking: true
@@ -3363,7 +3363,7 @@
 			]
 			id: "4F97D30383CAF71D"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "56971A033C33EEB7"
 				ignore_reward_blocking: true
