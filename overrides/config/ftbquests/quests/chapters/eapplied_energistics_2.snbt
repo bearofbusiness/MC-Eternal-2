@@ -1164,11 +1164,11 @@
 				""
 				"While most of these are fundamental, &ePassive Drain&r is a bit more unique, most machines you connect to your system will have an minor amount of &ePassive Drain&r, but it's nothing to worry about as long as you have an power setup appropriate for your scale and you have an suitable &7Power Bank&r."
 				"{@pagebreak}"
-				"The &7Power Bank&r of your &dME Controller&r alone is insuffecent, since it cannot store an meaninful excess of energy. With &76k AE (energy)&r storage provided by your controller, you have no buffer for when multiple machine begin running. The solution? a &eEnergy Cell&r, with it's weakest iteration providing &7200k AE (energy)&r storage, an single copy will be a sufficient buffer for an long time."
+				"The &7Power Bank&r of your &dME Controller&r alone is insuffecent, since it cannot store an meaninful excess of energy. With &76k AE (energy)&r storage provided by your controller, you have no buffer for when multiple machine begin running. The solution? a &eEnergy Cell&r, with it's weakest iteration providing &7200k AE (energy)&r storage, a single copy will be a sufficient buffer for an long time."
 				""
 				"With the metaphorical heart of your operation constructed you now need to &7Power&r it."
 				""
-				"If you haven't already this is the time to make use of your &aFavourate Energy Mod&r and produce the power for your future contraptions to use."
+				"If you haven't already this is the time to make use of your &aFavorite Energy Mod&r and produce the power for your future contraptions to use."
 				""
 				"&6Tip:&r In order to transfer external &7Power Generation&r into &dAE2&r, all you need is an &eEnergy Acceptor&r. Just connect your acceptor to your Network, hook your power into, it and watch your battery fill!"
 			]
