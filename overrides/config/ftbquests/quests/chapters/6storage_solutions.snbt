@@ -778,6 +778,7 @@
 					id: "itemfilters:tag"
 					tag: {
 						value: "mce:botania/corporea_automation_device"
+						value: "mce2:botania/corporea_automation_device"
 					}
 				}
 				title: "{mce.questing.botania.task.any_corporea_automation_device}"

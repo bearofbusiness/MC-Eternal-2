@@ -1464,7 +1464,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Deal 21 damage or more in a single hit."
+			subtitle: "Create a Tool with 21 or more Base Damage"
 			tasks: [{
 				advancement: "tconstruct:tools/one_shot"
 				criterion: ""
