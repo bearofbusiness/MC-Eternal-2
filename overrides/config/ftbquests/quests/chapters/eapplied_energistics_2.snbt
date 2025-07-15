@@ -1006,47 +1006,13 @@
 				"I'll provide you with two non-essential but potentially useful examples as &eOptional Quests&r."
 			]
 			id: "353A578CDE6BFEE9"
-			rewards: [
-				{
-					id: "2608DDCDB4A554FF"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 10L
-					currency: "eternalcurrencies:coins"
-					id: "050F000C1545E04B"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "050F000C1545E04B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Natural"
 			tasks: [{
 				id: "6116B7AEE4AD7F90"
@@ -1063,6 +1029,13 @@
 			hide_until_deps_complete: true
 			id: "637B7439FCF1D436"
 			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "5CC7EAAA8E7CFC9D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Similar to a defibrillator"
 			tasks: [{
 				id: "71773CA653FCF07A"
@@ -1079,6 +1052,13 @@
 			hide_until_deps_complete: true
 			id: "47B8823D3CE98856"
 			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "0C7F32D36029963A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Too much dust?"
 			tasks: [{
 				id: "218F485DA8E0923C"
@@ -1386,7 +1366,7 @@
 					type: "item"
 				}
 				{
-					amount: 150L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "044DE869995A92E2"
 					ignore_reward_blocking: true
@@ -1427,47 +1407,13 @@
 				"You can stack as many as you can fit, but beware, they love chewing through your &7Power Bank&r, and as such try to get full efficiency out of each one."
 			]
 			id: "786990F250A68E7C"
-			rewards: [
-				{
-					id: "19E33837F633C34F"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 50L
-					currency: "eternalcurrencies:coins"
-					id: "542F817E22153714"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "542F817E22153714"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Accelerating Growth"
 			tasks: [{
 				id: "091783DE3A313230"
@@ -1629,7 +1575,7 @@
 					type: "item"
 				}
 				{
-					amount: 50L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "66D2058D2296DE13"
 					ignore_reward_blocking: true
@@ -1841,47 +1787,13 @@
 			dependencies: ["67F89819C94F591A"]
 			description: ["Most useful when messing around with &eModified Storage Cells&r or &ePriority&r in your &eME Drive&r, the &eME IO Port&r allows you to quickly transfer all the items stored within an &eStorage Cell&r into the &bStorage Network&r and vice versa."]
 			id: "58941F0B71BB33F9"
-			rewards: [
-				{
-					id: "0458A140B7F59E0B"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 50L
-					currency: "eternalcurrencies:coins"
-					id: "2226277DC3814E6A"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2226277DC3814E6A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Macro Management"
 			tasks: [{
 				id: "7BFD2D1CEFA8EE7B"
@@ -1945,7 +1857,7 @@
 					type: "item"
 				}
 				{
-					amount: 50L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "0D11FA05EBD409BB"
 					ignore_reward_blocking: true
@@ -2136,7 +2048,7 @@
 					type: "item"
 				}
 				{
-					amount: 50L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "40C48372D13BE3F4"
 					ignore_reward_blocking: true
@@ -2237,7 +2149,7 @@
 					type: "item"
 				}
 				{
-					amount: 50L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "6EAEEE2E34C6D712"
 					ignore_reward_blocking: true
@@ -2337,13 +2249,47 @@
 				"{image:modpack:textures/ae2_simple_farming_setup.png width:200 height:100 align:center}"
 			]
 			id: "034F0C238E6C785E"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "21967AC688788436"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					id: "227758AB233586F3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "5210BF7275BB7B96"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
 			subtitle: "Clamer Placing"
 			tasks: [{
 				id: "4003D789DCAF395C"
@@ -2397,7 +2343,7 @@
 					type: "item"
 				}
 				{
-					amount: 50L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "1DF6A4F960490A30"
 					ignore_reward_blocking: true
@@ -2483,47 +2429,13 @@
 			]
 			icon: "ae2:spatial_io_port"
 			id: "65EB1D8FE39B2EA8"
-			rewards: [
-				{
-					id: "539FD6B426325B39"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 50L
-					currency: "eternalcurrencies:coins"
-					id: "1F56F8C02059B72B"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1F56F8C02059B72B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Digitizing Structures"
 			tasks: [
 				{
@@ -2570,13 +2482,47 @@
 			dependencies: ["5E2984EF36314A88"]
 			description: ["The &eminimum for most strucures&r, &4But not our maxmium...&r"]
 			id: "76D949C432FF4DAB"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "1935F8ED0505B636"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					id: "36B8F700EBC5560E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "70E7782D998A10AD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
 			subtitle: "Sizeable"
 			tasks: [{
 				id: "4C6E0308B1A0E3C2"
@@ -2682,7 +2628,7 @@
 					type: "item"
 				}
 				{
-					amount: 50L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "7574130DCB3E6E0E"
 					ignore_reward_blocking: true
@@ -2859,6 +2805,7 @@
 			id: "0A523F4F763108E3"
 			rewards: [
 				{
+					count: 2
 					id: "75394D8C017B18F9"
 					item: {
 						Count: 1
@@ -2891,7 +2838,7 @@
 					type: "item"
 				}
 				{
-					amount: 50L
+					amount: 200L
 					currency: "eternalcurrencies:coins"
 					id: "210F8DBE378F4A6C"
 					ignore_reward_blocking: true
@@ -2919,47 +2866,13 @@
 				"3) Push the limits of space to produce extreamly dense &5Singularities&r."
 			]
 			id: "6206C71520FDFB49"
-			rewards: [
-				{
-					id: "71ED7BDB51BB67B6"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					amount: 50L
-					currency: "eternalcurrencies:coins"
-					id: "373A018594B431AF"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "373A018594B431AF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Advanced Space Trashcan"
 			tasks: [{
 				id: "30B2E0697D438ECA"
@@ -3228,7 +3141,7 @@
 					type: "item"
 				}
 				{
-					amount: 50L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "548DFB6801B17277"
 					ignore_reward_blocking: true
@@ -3265,9 +3178,10 @@
 			id: "2E14EC6EBA56DA56"
 			rewards: [
 				{
+					count: 2
 					id: "4F77BEC0CC21C029"
 					item: {
-						Count: 2
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							Enchantments: [{
