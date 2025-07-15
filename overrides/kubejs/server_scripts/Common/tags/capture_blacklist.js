@@ -16,7 +16,9 @@ ServerEvents.tags("entity_type", event => {
         "mowziesmobs:frostmaw",
         "mowziesmobs:umvuthi",
         "mowziesmobs:sculptor",
-        "masquerader_mod:masquerader"
+        "masquerader_mod:masquerader",
+        "irons_spellbooks:dead_king",
+        "irons_spellbooks:dead_king_corpse"
     ])
 
 
