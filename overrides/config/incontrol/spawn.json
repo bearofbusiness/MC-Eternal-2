@@ -4,7 +4,7 @@
     "dimension": "thegreatbelow:thegreatbelow",
     "result": "true",
     "when": "onjoin",
-    "healthmultiply": 10.0,
+    "healthmultiply": 20.0,
     "damagemultiply": 8.5,
     "speedmultiply": 1.5
   },
@@ -148,7 +148,7 @@
  
   {
     "mod": "goety",
-    "when": "onjoin",
+    "when": "finalize",
     "result": "allow",
     "healthmultiply": 1.5,
     "damagemultiply": 2.0,
