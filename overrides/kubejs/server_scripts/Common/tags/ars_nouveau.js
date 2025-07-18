@@ -5,18 +5,23 @@ ServerEvents.tags("item", event => {
         "hexcasting:amethyst_dust",
         "hexcasting:charged_amethyst",
         "ae2:certus_quartz_crystal",
-        "ae2:certus_quartz_dust"
+        "ae2:certus_quartz_dust",
+        /tconstruct:.*_slime_crystal/
     ])
 })
 
 ServerEvents.tags("block", event => {
 
     //Golem "Budding", which is what blocks Amethyst Golems will cache as Budding Blocks to look at harvesting near.
-    event.add("ars_nouveau:golem/budding", /ae2:.*_budding_quartz/)
+    event.add("ars_nouveau:golem/budding", [
+        /ae2:.*_budding_quartz/,
+        /tconstruct:budding_.*_slime_crystal/
+    ])
 
     //Golem "Cluster", which is what blocks Amethyst Golems will Harvest.
     event.add("ars_nouveau:golem/cluster", [
-        "ae2:quartz_cluster"
+        "ae2:quartz_cluster",
+        /tconstruct:.*_slime_crystal_cluster/,
     ])
 
 
