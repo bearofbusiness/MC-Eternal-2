@@ -205,4 +205,10 @@ ItemEvents.tooltip(event => {
 
 	event.add("occultism:stable_wormhole", Text.translate("tooltip.mce2.occultism.stable_wormhole.fragile").color("#BB0000"))
 
+	event.add("ae2:facade", Text.translate("tooltip.mce2.ae2.facade.can_be_made_with_more_things").color("#FFFF44"))
+
+	event.add(["#enderio:clear_glass", "#enderio:fused_quartz"], Text.translate("tooltip.mce2.generic.can_be_dyed").color("#FFFF44"))
+
+	event.add("#mce2:item_trash_cans", Text.translate("tooltip.mce2.generic.item_trash_can").color("#FF8888"))
+	event.add("#mce2:fluid_trash_cans", Text.translate("tooltip.mce2.generic.fluid_trash_can").color("#FF8888"))
 })
