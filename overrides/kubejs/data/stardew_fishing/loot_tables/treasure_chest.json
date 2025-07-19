@@ -20,20 +20,7 @@
           ]
         },
      
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:andesite",
-          "weight": 16,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 8,
-                "max": 23
-              }
-            }
-          ]
-        },
+      
         {
           "type": "minecraft:item",
           "name": "minecraft:redstone",
@@ -48,10 +35,25 @@
             }
           ]
         },
+        
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:neptunium_nugget",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 9
+              }
+            }
+          ]
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:raw_gold",
-          "weight": 10,
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -71,13 +73,9 @@
         {
           "type": "minecraft:item",
           "name": "aquaculture:neptunium_block",
-          "weight": 3
+          "weight": 1
         },
-         {
-          "type": "minecraft:item",
-          "name": "aquaculture:neptunium_nugget",
-          "weight": 20
-        },
+      
          {
           "type": "minecraft:item",
           "name": "aquaculture:neptunium_ingot",
