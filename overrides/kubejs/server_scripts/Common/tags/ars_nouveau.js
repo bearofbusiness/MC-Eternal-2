@@ -8,6 +8,10 @@ ServerEvents.tags("item", event => {
         "ae2:certus_quartz_dust",
         /tconstruct:.*_slime_crystal/
     ])
+
+    //tagging because Scrying rituals *ONLY* accept Tags. why.
+    constructSlimeTypes.forEach(type =>
+        event.add(`mce2:scrying_ingredients/tconstruct_${type}_slime`, `tconstruct:${type}_slime_crystal`))
 })
 
 ServerEvents.tags("block", event => {
@@ -40,4 +44,8 @@ ServerEvents.tags("block", event => {
         "ae2:chest",
         "ae2:io_port"
     ])
+
+    //as above, because Scraying rituals *ONLY* accept Tags.
+    constructSlimeTypes.forEach(type => 
+        event.add(`mce2:scryables/tconstruct_${type}_slime`, `tconstruct:budding_${type}_slime_crystal`))
 })
