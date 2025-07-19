@@ -1,6 +1,6 @@
 {
 	"root_xp": {
-		"title": "§9Angler:§r +10% XP From Fishing",
+		"title": "§9Modest Angler:§r +10% XP From Fishing",
 		"frame": {
 			"type": "advancement",
 			"data": {
