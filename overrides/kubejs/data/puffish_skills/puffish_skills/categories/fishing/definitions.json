@@ -1,6 +1,6 @@
 {
 	"root_xp": {
-		"title": "Angler: +10% XP From Fishing",
+		"title": "§9Angler:§r +10% XP From Fishing",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -25,7 +25,7 @@
 		]
 	},
 	"xp_lesser": {
-		"title": "Serene Angler: +5% XP From Fishing",
+		"title": "§dSerene Angler:§r +5% XP From Fishing",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -35,7 +35,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "rats:fisherman_hat"
+				"item": "aquaculture:bobber"
 			}
 		},
 		"rewards": [
@@ -60,7 +60,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "aquaculture:bobber"
+				"item": "stardew_fishing:quality_bobber"
 			}
 		},
 		"rewards": [
@@ -75,7 +75,7 @@
 		]
 	},
 	"line_strength": {
-		"title": "Gentle Angler: Fish Escape 7% Slower",
+		"title": "§3Gentle Angler:§r Fish Escape 7% Slower",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -125,7 +125,7 @@
 		]
 	},
 	"bobber_size": {
-		"title": "Tactile Angler: +5% Increased Bobber Size",
+		"title": "§7Tactile Angler:§r +6% Increased Bobber Size",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -143,14 +143,14 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "stardew_fishing:bar_size",
-					"value": 0.05,
+					"value": 0.06,
 					"operation": "multiply_total"
 				}
 			}
 		]
 	},
 	"lucky_angler": {
-		"title": "Lucky Angler: +5% Special Treasure Chance",
+		"title": "§eLucky Angler:§r +5% Special Treasure Chance",
 		"frame": {
 			"type": "advancement",
 			"data": {
