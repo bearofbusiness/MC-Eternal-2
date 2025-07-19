@@ -88,7 +88,7 @@
 			]
 			id: "09E7B05E4298F3BE"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "231D9A9DAFE072C9"
 				ignore_reward_blocking: true
@@ -139,7 +139,7 @@
 			id: "704C7C142ECED1D5"
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "5BB7E41B5CDFF627"
 					ignore_reward_blocking: true
@@ -455,7 +455,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "128E023CD73AA744"
 					ignore_reward_blocking: true
@@ -578,7 +578,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "111905BFF2B46150"
 					ignore_reward_blocking: true
@@ -633,7 +633,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "6C76B77E64F2C04C"
 					ignore_reward_blocking: true
@@ -675,7 +675,7 @@
 			}
 			id: "06F0A11431B112E4"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "17A21F0CEA33E402"
 				ignore_reward_blocking: true
@@ -1082,7 +1082,7 @@
 			}
 			id: "25613F7E8248805C"
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "5100B856081545A1"
 				ignore_reward_blocking: true
@@ -1528,7 +1528,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "4942D239F9ECA5AC"
 					ignore_reward_blocking: true
@@ -1891,7 +1891,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "194209231C265876"
 					ignore_reward_blocking: true
@@ -2246,6 +2246,13 @@
 				"Each one comes with a pre-determined Form Glyph depending on which tool you use. There's too much information to explain here so I'd recommend checking the &eWorn Notebook&r to learn more about these awesome items!"
 			]
 			id: "2A7A23DB0184D16F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "15159EC741F3209D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Better than Spell Books!"
 			tasks: [{
 				id: "779F9970773FB4EC"
@@ -2417,7 +2424,7 @@
 			id: "00307A4424B56EC2"
 			optional: true
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "7C771586E5DB8A4B"
 				ignore_reward_blocking: true
@@ -2506,7 +2513,7 @@
 			id: "5E0498ECFD150E14"
 			optional: true
 			rewards: [{
-				amount: 100L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "3B2897AB43E6F12C"
 				ignore_reward_blocking: true
@@ -2556,6 +2563,13 @@
 			icon: "occultism:book_of_binding_djinni"
 			id: "25A5E3F55E54749E"
 			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4AAB85FA873E8D91"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Otherworldly Rituals"
 			tasks: [{
 				id: "6B4CEA9CF82F9C97"
@@ -2567,6 +2581,13 @@
 		}
 		{
 			id: "1A39D87C0BC3F4AE"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4EB6BBB537C96448"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "rsquare"
 			subtitle: "AutoMAGIC Spellcasting"
 			tasks: [{
@@ -2582,6 +2603,13 @@
 			dependencies: ["1A39D87C0BC3F4AE"]
 			description: ["&eEnchanted Spell Turrets&r cost imbued spells at half the cost of the regular amount of Source required."]
 			id: "2A9EBE3F6DE9FC1B"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "06AA70CAE11D4D96"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Cheaper Turrets"
 			tasks: [{
 				id: "56843191369E345A"
@@ -2614,6 +2642,13 @@
 			dependencies: ["1A39D87C0BC3F4AE"]
 			description: ["The &eAdjustable Spell Turret&r is a small upgrade from the Basic Spell Turret&e. You can change the direction it's facing with a &eDominion Wand&r by Right Clicking the desired block."]
 			id: "31A433CABF46DDAA"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1EDB390893829CB3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Slightly Better Turret"
 			tasks: [{
 				id: "4CBFF12E0A4B763C"
@@ -2631,6 +2666,13 @@
 				"They can cast spells at a 65% discount, as well as performing spell combos that would be used in combination with the variety of &eElemental Focuses&r that &5Ars Elemental&r provides for you to use yourself!"
 			]
 			id: "4D9B3259CB30B9F2"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "1D277CCE7B7953CA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "More turret upgrades?"
 			tasks: [{
 				id: "1D13DC8E5C666221"
@@ -2685,6 +2727,13 @@
 			}
 			id: "1029FDFB1056B5CE"
 			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4909E5973995E5A6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Better Magical Food!"
 			tasks: [{
 				id: "74925BE79DC4D0B3"
@@ -2704,6 +2753,13 @@
 				"{ \"text\": \"Ritual of Scrying\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"192CD8BC280620AB\" } }"
 			]
 			id: "143F454F976B2E9E"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0E7CD7EB4DCB3B8D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "So... Where Is It?"
 			tasks: [{
 				id: "31EC4072C269724F"
@@ -2724,6 +2780,13 @@
 				"{ \"text\": \"Amethyst Golem\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10260F1595649978\" } }"
 			]
 			id: "5D0B7D274DD636C9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7F61E198BC6515AE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "The start of Familiars"
 			tasks: [{
 				id: "4779F358E1960E97"
@@ -2744,6 +2807,13 @@
 			hide_dependent_lines: true
 			icon: "ars_nouveau:ritual_brazier"
 			id: "3EC7BF21C76FF1C2"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "41875D0B6C1831CB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "rsquare"
 			subtitle: "Is this Occultism?"
 			tasks: [{
@@ -2764,6 +2834,13 @@
 				"&6Tip:&r Having a 'Touch - Dispel' spell on hand will remove whatever is in the &eContainment Jar&r, so don't worry if you capture the wrong thing! Just don't put your &eSpell Book&r in it accidentally....."
 			]
 			id: "3FE00B019479D14E"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5047BD2B443C0FBA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Pokemon with extra steps!"
 			tasks: [{
 				id: "774BBCEB930E4B88"
@@ -2781,6 +2858,13 @@
 				"It can also be used to search for the illusive Arcane Library for all your &5Ars Nouveau&r needs!"
 			]
 			id: "736892A6C5BF10B1"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "30578C83F840399A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Scrying But For Structures!"
 			tasks: [{
 				id: "62A9FDDDCD18C749"
@@ -2798,6 +2882,13 @@
 				"There's no method to influence to spawn one specific Wilden Beast but if you throw a &eWilden Spike&r, &eWilden Horn&r, and &eWilden Wing&r onto the Ritual Brazier after inserting this Tablet, you best be prepared for a fight!"
 			]
 			id: "158B5CD496403019"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4E2068D67494A01F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Wilden Beasts?"
 			tasks: [{
 				id: "472AA02B77854E67"
@@ -2815,6 +2906,13 @@
 				"The Effect it gives lasts a minute but as long as you're in that radius of about a 3x3 chunk area, it will always reset! Just make sure the &eRitual Brazier&r has a constant income of Source!"
 			]
 			id: "799D1207E689F5D0"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0105F235848A5D28"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "I can fly!"
 			tasks: [{
 				id: "29AC407B17A38508"
@@ -2834,6 +2932,13 @@
 				"The effect lasts no time at all, but if you add a &eManipulation Essence&r with the Ore, the Effect duration is increased to 15 minutes!"
 			]
 			id: "192CD8BC280620AB"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "286D6E2D428AB49A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Basically X-Ray!"
 			tasks: [{
 				id: "6818FBEF403F5205"
