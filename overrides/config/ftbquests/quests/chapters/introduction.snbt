@@ -4435,28 +4435,19 @@
 			hide_until_deps_visible: true
 			id: "2A2C2BDE2D92A59F"
 			optional: true
-			rewards: [
-				{
-					command: ""
-					icon: "titles:title_scroll_common"
-					id: "0708839C53992326"
-					title: "&eUnlock Title:&r the Spud Bud"
-					type: "command"
-				}
-				{
-					id: "1B055F8946C76D93"
-					item: {
-						Count: 1
-						id: "botania:tiny_potato"
-						tag: {
-							display: {
-								Name: "{\"text\":\"grumm\"}"
-							}
+			rewards: [{
+				id: "1B055F8946C76D93"
+				item: {
+					Count: 1
+					id: "botania:tiny_potato"
+					tag: {
+						display: {
+							Name: "{\"text\":\"grumm\"}"
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			shape: "heart"
 			subtitle: "Pet a &eTiny Potato"
 			tasks: [{
@@ -6530,16 +6521,41 @@
 		}
 		{
 			dependencies: ["33DBFD4B00935B0A"]
-			description: ["Collar Tags can be used to rename your pets cheapily!"]
+			description: [
+				"Collar Tags can be used to rename your pets cheapily!"
+				""
+				"They can also be used to enchant your pets with neat enchantments! "
+				"Simply combine a pet enchanted book with a Collar Tag in an Anvil!"
+				"Or enchant it in an Enchanting Table! "
+				"There are dozens of pet enchants out there, each with different ways to customize your pets!"
+				""
+				"&6Hint:&r Right-Click the Collar Tag on your pet and hold shift to view their currently equipped tag!"
+			]
 			hide_until_deps_complete: true
 			id: "53FAF3E67330A40A"
-			rewards: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "5A99D7DD004E13E8"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 10L
+					currency: "eternalcurrencies:coins"
+					id: "5A99D7DD004E13E8"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "52DEF9BB7CD25EFF"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "domesticationinnovation:health_boost"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 0.7d
 			subtitle: "Craft a &eCollar Tag"
 			tasks: [{
@@ -6555,6 +6571,8 @@
 			description: [
 				"The Pet Bed when bound to a pet allows them to respawn upon dying!"
 				"They will be found sleeping peacefully in their bed the following morning!"
+				""
+				"&6Hint:&r Push a pet onto a Pet Bed to link them, you can tell if they are linked by the &7Zzz&r particles that begin appearing!"
 			]
 			hide_until_deps_complete: true
 			id: "742A19CCE223830C"
