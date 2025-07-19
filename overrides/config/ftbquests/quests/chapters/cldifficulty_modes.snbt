@@ -427,7 +427,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/gamestage add @p normal"
+					command: "/gamestage add {p} normal"
 					console: true
 					icon: "rats:rat_skull"
 					id: "062D5DD2C84B35D2"

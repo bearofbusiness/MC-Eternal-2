@@ -1815,7 +1815,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[Overworld Radio Broadcast]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" This JUST in! We have some important news! @p has officially beaten all known Quest Chapters! Wowza! Congrats to @p for unlocking The Loremaster Title, it seems they have a LOT of free time! \\nAnyway, thanks for tuning in to this weeks OVERWORLD RADIO BROADCAST OF THE MONTH! come back next month! I'm Chip Chiply and you've just been told... THE NEWS!\"}] "
+					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[Overworld Radio Broadcast]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" This JUST in! We have some important news! {p} has officially beaten all known Quest Chapters! Wowza! Congrats to {p} for unlocking The Loremaster Title, it seems they have a LOT of free time! \\nAnyway, thanks for tuning in to this weeks OVERWORLD RADIO BROADCAST OF THE MONTH! come back next month! I'm Chip Chiply and you've just been told... THE NEWS!\"}] "
 					console: true
 					elevate_perms: true
 					icon: "etched:radio"

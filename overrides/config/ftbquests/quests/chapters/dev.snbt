@@ -15,7 +15,7 @@
 			id: "757234016AD66E49"
 			rewards: [{
 				auto: "enabled"
-				command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" All of a sudden you feel afraid of the dark... You feel deeply unsettled.. Better stay in the light.. Who knows what lurks in the dark...\"}]"
+				command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" All of a sudden you feel afraid of the dark... You feel deeply unsettled.. Better stay in the light.. Who knows what lurks in the dark...\"}]"
 				icon: "autumnity:red_maple_sapling"
 				id: "1A0517AB986A5101"
 				title: "&cOminous Warning"

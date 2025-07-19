@@ -259,7 +259,7 @@
 			y: -4.583333333333336d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -777,7 +777,6 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "mce:botania/corporea_automation_device"
 						value: "mce2:botania/corporea_automation_device"
 					}
 				}

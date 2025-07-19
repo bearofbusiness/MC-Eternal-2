@@ -1822,7 +1822,7 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/execute at @p run summon alexsmobs:fly ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Guy\\\\\\\"\\\"\"}"
+					command: "/execute at {p} run summon alexsmobs:fly ~ ~1 ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Guy\\\\\\\"\\\"\"}"
 					console: true
 					elevate_perms: true
 					icon: "artifacts:crystal_heart"
@@ -2363,7 +2363,7 @@
 			invisible: true
 			rewards: [
 				{
-					command: "/titles add @p titles:beastmaster"
+					command: "/titles add {p} titles:beastmaster"
 					icon: "titles:title_scroll_uncommon"
 					id: "184B242808F4AB46"
 					title: "{chapter.1.quest.26.reward.3.title}"
@@ -2439,7 +2439,7 @@
 					xp_levels: 1
 				}
 				{
-					command: "/titles add @p titles:trader"
+					command: "/titles add {p} titles:trader"
 					icon: "titles:title_scroll_common"
 					id: "010394115892AE30"
 					title: "{chapter.1.quest.30.reward.3.title}"
@@ -2705,7 +2705,7 @@
 			id: "485F6D56A244289C"
 			rewards: [
 				{
-					command: "/titles add @p titles:gobby"
+					command: "/titles add {p} titles:gobby"
 					icon: "titles:title_scroll_uncommon"
 					id: "18AB3A63DD2748AC"
 					title: "{chapter.1.quest.37.reward.3.title}"
@@ -2797,7 +2797,7 @@
 					type: "custom"
 				}
 				{
-					command: "/titles add @p titles:pleb"
+					command: "/titles add {p} titles:pleb"
 					icon: "titles:title_scroll_common"
 					id: "562E75AE41AA509C"
 					title: "{chapter.1.quest.41.reward.3.title}"
@@ -2805,7 +2805,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound goety:zealot_celebrate player @p ~ ~ ~ 180 0.4 1"
+					command: "/execute at {p} run playsound goety:zealot_celebrate player {p} ~ ~ ~ 180 0.4 1"
 					icon: "occultism:spirit_fire"
 					id: "15CA1627C86FD032"
 					title: "&c???"
@@ -2885,7 +2885,7 @@
 			optional: true
 			rewards: [
 				{
-					command: "/titles remove @p twilightforest:progress_naga"
+					command: "/titles remove {p} twilightforest:progress_naga"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
@@ -3202,7 +3202,7 @@
 					type: "choice"
 				}
 				{
-					command: "/titles add @p twilightforest:progress_troll"
+					command: "/titles add {p} twilightforest:progress_troll"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -3376,7 +3376,7 @@
 					type: "loot"
 				}
 				{
-					command: "/titles add @p titles:friend"
+					command: "/titles add {p} titles:friend"
 					icon: "titles:title_scroll_uncommon"
 					id: "311D7B4F8F95892A"
 					title: "{chapter.1.quest.51.reward.3.title}"
@@ -3503,7 +3503,7 @@
 					type: "custom"
 				}
 				{
-					command: "/titles add @p titles:slimy"
+					command: "/titles add {p} titles:slimy"
 					icon: "titles:title_scroll_uncommon"
 					id: "3F776B6D577373E7"
 					title: "&eUnlock Title:&r the Partycrasher"
@@ -3561,7 +3561,7 @@
 					type: "custom"
 				}
 				{
-					command: "/tellraw @p [\"\",{\"text\":\"Click to Join the MC Eternal Discord!\",\"color\":\"gold\",\"bold\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/c8RZr58\"}}]"
+					command: "/tellraw {p} [\"\",{\"text\":\"Click to Join the MC Eternal Discord!\",\"color\":\"gold\",\"bold\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/c8RZr58\"}}]"
 					icon: "mceletters:elegant_letter"
 					id: "65CBB395B37355EA"
 					title: "{chapter.1.quest.54.reward.2.title}"
@@ -3718,7 +3718,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound tombstone:ghost_howl player @p ~ ~ ~ 200 1.8 1"
+					command: "/execute at {p} run playsound tombstone:ghost_howl player {p} ~ ~ ~ 200 1.8 1"
 					console: true
 					icon: "occultism:spirit_fire"
 					id: "560F18F552090F0B"
@@ -3880,7 +3880,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/execute at @p run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 180 0.1 0.5"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
 					icon: "mekanism:cardboard_box"
 					id: "697FDD5060CAD73D"
 					title: "&dYou've got mail!"
@@ -4357,7 +4357,7 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" @p just requested Pigstep! Coming right up!\"}] "
+					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" {p} just requested Pigstep! Coming right up!\"}] "
 					icon: "etched:radio"
 					id: "16F83B3977639F96"
 					title: "&e&nRADIO BROADCAST"
@@ -4394,7 +4394,7 @@
 			rewards: [
 				{
 					auto: "no_toast"
-					command: "/execute at @p run playsound jellyfishing:music.jellyfishfields master @a"
+					command: "/execute at {p} run playsound jellyfishing:music.jellyfishfields master @a"
 					icon: "minecraft:jukebox"
 					id: "08C06ACDE7EA2F8B"
 					title: "&eSong Request"
@@ -4402,7 +4402,7 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" @p just requested Jellyfish Fields! Coming right up!\"}] "
+					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" {p} just requested Jellyfish Fields! Coming right up!\"}] "
 					icon: "etched:radio"
 					id: "20BA00E670A225C1"
 					title: "&e&nRADIO BROADCAST"
@@ -4694,7 +4694,7 @@
 			id: "2488248F1A2762CB"
 			rewards: [
 				{
-					command: "/titles add @p titles:ungriefed"
+					command: "/titles add {p} titles:ungriefed"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
@@ -4821,7 +4821,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:highwayman"
+					command: "/titles add {p} titles:highwayman"
 					icon: {
 						Count: 1
 						ForgeCaps: {
@@ -5637,7 +5637,7 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/tellraw @p {\"text\":\"You are a Pureblood Vampire... Thus you have started the game with \\\"Sanguinare Vampiris\\\"!\",\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.vampirism.dev/docs/wiki/content/effects\"}}"
+					command: "/tellraw {p} {\"text\":\"You are a Pureblood Vampire... Thus you have started the game with \\\"Sanguinare Vampiris\\\"!\",\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.vampirism.dev/docs/wiki/content/effects\"}}"
 					icon: "vampirism:cursed_spruce_sign"
 					id: "44E8D9F08CE52A50"
 					title: "&eVampire Message"
@@ -5645,7 +5645,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/effect give @p vampirism:sanguinare"
+					command: "/effect give {p} vampirism:sanguinare"
 					icon: "vampirism:vampire_minion_binding"
 					id: "52A2B74C6A1C0539"
 					title: "&eYour Gift!"
@@ -5653,14 +5653,14 @@
 				}
 				{
 					auto: "enabled"
-					command: "/vampirism level vampirism:vampire 2 @p"
+					command: "/vampirism level vampirism:vampire 2 {p}"
 					icon: "vampiricageing:tainted_concentrate"
 					id: "41D6F6144B9C8C50"
 					title: "&eTainted Blood"
 					type: "command"
 				}
 				{
-					command: "/titles add @p titles:pureblood"
+					command: "/titles add {p} titles:pureblood"
 					icon: "titles:title_scroll_uncommon"
 					id: "5410C673D96ED620"
 					title: "&eUnlock Title:&r the Pureblood"
@@ -5727,7 +5727,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:orc"
+					command: "/titles add {p} titles:orc"
 					icon: "titles:title_scroll_uncommon"
 					id: "500633A5FF7F16F9"
 					title: "&eUnlock Title:&r the Orc"
@@ -5735,7 +5735,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/attribute @p combatroll:recharge base set 0.5"
+					command: "/attribute {p} combatroll:recharge base set 0.5"
 					icon: "nethers_delight:hoglin_hide"
 					id: "74959103B024328D"
 					title: "&eThick Skin"
@@ -5808,14 +5808,14 @@
 				}
 				{
 					auto: "invisible"
-					command: "/attribute @p combatroll:recharge base set 0.5"
+					command: "/attribute {p} combatroll:recharge base set 0.5"
 					icon: "betterleveling:raw_gold"
 					id: "3632636992E1B1FA"
 					title: "&6Dwarven Intuition"
 					type: "command"
 				}
 				{
-					command: "/titles add @p titles:dwarf"
+					command: "/titles add {p} titles:dwarf"
 					icon: "titles:title_scroll_common"
 					id: "4D98C0B443CD9B38"
 					title: "&eUnlock Title:&r the Dwarf"
@@ -5914,7 +5914,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:human"
+					command: "/titles add {p} titles:human"
 					icon: "titles:title_scroll_common"
 					id: "2E828F712E1C1E2E"
 					title: "&eUnlock Title:&r the Human"
@@ -6060,7 +6060,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:the_withered"
+					command: "/titles add {p} titles:the_withered"
 					icon: {
 						Count: 1
 						ForgeCaps: {
@@ -7863,8 +7863,8 @@
 				type: "item"
 			}]
 			title: "&dHappy Pride!"
-			x: -0.4551870748299436d
-			y: 1.4661564625850332d
+			x: -0.5032312925169933d
+			y: 1.4768707482993122d
 		}
 		{
 			dependencies: ["28EA646E95041E52"]
