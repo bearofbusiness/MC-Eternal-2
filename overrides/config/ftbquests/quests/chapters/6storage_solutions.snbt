@@ -746,7 +746,15 @@
 				"0DEAA29705F2A17A"
 				"695FC871D1105C97"
 			]
-			description: ["{mce.questing.botania.corporea_automation.desc}"]
+			description: [
+				"{mce.questing.botania.corporea_automation.desc.page1}"
+				"{@pagebreak}"
+				"{mce.questing.botania.corporea_automation.desc.page2}"
+				"{@pagebreak}"
+				"{mce.questing.botania.corporea_automation.desc.page3}"
+				"{@pagebreak}"
+				"{mce.questing.botania.corporea_automation.desc.page4}"
+			]
 			hide_until_deps_complete: true
 			id: "3940988637539E72"
 			rewards: [
