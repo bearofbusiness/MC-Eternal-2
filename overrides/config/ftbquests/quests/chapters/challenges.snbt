@@ -1408,11 +1408,6 @@
 					item: "ars_nouveau:music_disc_aria_biblio"
 					type: "item"
 				}
-				{
-					id: "2078A6716CC2B4FB"
-					item: "warwither:music_disc_war_wither"
-					type: "item"
-				}
 			]
 			title: "{chapter.39.quest.18.title}"
 			x: -3.0d
