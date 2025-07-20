@@ -100,7 +100,7 @@
 		]
 	},
 	"treasure": {
-		"title": "§6§lMaster Angler:§r +80% Special Treasure Chance",
+		"title": "§6§lMaster Angler:§r +60% Special Treasure Chance",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -118,7 +118,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "stardew_fishing:treasure_chance_bonus",
-					"value": 0.8,
+					"value": 0.6,
 					"operation": "multiply_total"
 				}
 			}

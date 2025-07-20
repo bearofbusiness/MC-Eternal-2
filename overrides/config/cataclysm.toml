@@ -300,10 +300,10 @@
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 2.0
+	HarbingerHealthMultiplier = 2.8
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerDamageMultiplier = 3.6
+	HarbingerDamageMultiplier = 3.7
 	#Harbinger's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerHealingMultiplier = 0.0
@@ -312,7 +312,7 @@
 	"Harbinger's WitherMissiledamage" = 25.0
 	#Harbinger's laser's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Harbinger's laser damage" = 10.0
+	"Harbinger's laser damage" = 15.0
 	#Harbinger's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"The Harbinger's prevent attacks from far away Range" = 35.0
@@ -331,10 +331,10 @@
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanHealthMultiplier = 2.2
+	LeviathanHealthMultiplier = 2.5
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageMultiplier = 3.7
+	LeviathanDamageMultiplier = 3.8
 	#Leviathan's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	LeviathanNatureHealing = 10.0

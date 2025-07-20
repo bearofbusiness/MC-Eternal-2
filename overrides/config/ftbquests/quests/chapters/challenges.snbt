@@ -2175,6 +2175,49 @@
 			x: 4.0d
 			y: 4.0d
 		}
+		{
+			description: ["&o\"Godzilla was baptized in the fire of the H-bomb and survived. What could kill it now?\""]
+			id: "4C49FA74128CEE95"
+			rewards: [
+				{
+					amount: 3500L
+					currency: "eternalcurrencies:coins"
+					id: "53327789AB4B75B4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "78D2A656AEC25566"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p}  titles:godzilla"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "5D2DF03A7B532A06"
+					title: "&eUnlock Title:&r the Terror"
+					type: "command"
+				}
+			]
+			subtitle: "Tame a &dTerrorzilla"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_tremorzilla"
+				criterion: ""
+				icon: "alexscaves:waste_drum"
+				id: "116EB152780DB546"
+				title: "&6King of The Monsters"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
 	]
 	title: "{chapter.39.title}"
 }
