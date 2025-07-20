@@ -63,11 +63,6 @@
                 {
                     "entity": "cataclysm:ignited_berserker",
                     "count": 1
-                },
-                 {
-                    "attribute": "attributeslib:fire_damage",
-                    "operation": "ADDITION",
-                    "value": 2
                 }
             ],
             "modifiers": [
@@ -80,6 +75,11 @@
                     "attribute": "generic.movement_speed",
                     "operation": "MULTIPLY_TOTAL",
                     "value": 0.05
+                },
+                     {
+                    "attribute": "attributeslib:fire_damage",
+                    "operation": "ADDITION",
+                    "value": 2
                 }
             ],
             "rewards": [
