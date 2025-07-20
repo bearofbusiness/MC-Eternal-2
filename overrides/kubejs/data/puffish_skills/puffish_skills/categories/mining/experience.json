@@ -258,19 +258,7 @@
 							}
 						]
 					},
-					"bismuthinite_ore": {
-						"operations": [
-							{
-								"type": "get_mined_block_state"
-							},
-							{
-								"type": "puffish_skills:test",
-								"data": {
-									"block": "tinkers_advanced:bismuthinite_ore"
-								}
-							}
-						]
-					},
+
 					"iridium_lean_ore": {
 						"operations": [
 							{
@@ -542,19 +530,7 @@
 							}
 						]
 					},
-					"bismuthinite_ore_deepslate": {
-						"operations": [
-							{
-								"type": "get_mined_block_state"
-							},
-							{
-								"type": "puffish_skills:test",
-								"data": {
-									"block": "tinkers_advanced:bismuthinite_ore_deepslate"
-								}
-							}
-						]
-					},
+				
 					"deepslate_fluorite_ore": {
 						"operations": [
 							{
@@ -598,11 +574,11 @@
 				"experience": [
 			
 					{
-						"condition": "!silk_touch & (coal_ore | copper_ore | iron_ore | gold_ore | redstone_ore | lapis_ore | diamond_ore | emerald_ore | cinnabar_ore | lead_ore | nickel_ore | niter_ore | silver_ore | sulfur_ore | tin_ore | zinc_ore | bismuthinite_ore | iridium_lean_ore | fluorite_ore | osmium_ore | uranium_ore | cobalt_ore)",
+						"condition": "!silk_touch & (coal_ore | copper_ore | iron_ore | gold_ore | redstone_ore | lapis_ore | diamond_ore | emerald_ore | cinnabar_ore | lead_ore | nickel_ore | niter_ore | silver_ore | sulfur_ore | tin_ore | zinc_ore | iridium_lean_ore | fluorite_ore | osmium_ore | uranium_ore | cobalt_ore)",
 						"expression": "1"
 					},
 					{
-						"condition": "!silk_touch & (deepslate_coal_ore | deepslate_copper_ore | deepslate_iron_ore | deepslate_gold_ore | deepslate_redstone_ore | deepslate_lapis_ore | deepslate_diamond_ore | deepslate_emerald_ore | deepslate_cinnabar_ore | deepslate_lead_ore | deepslate_nickel_ore | deepslate_niter_ore | deepslate_silver_ore | deepslate_sulfur_ore | deepslate_tin_ore | deepslate_zinc_ore | bismuthinite_ore_deepslate | deepslate_fluorite_ore | deepslate_osmium_ore | deepslate_uranium_ore)",
+						"condition": "!silk_touch & (deepslate_coal_ore | deepslate_copper_ore | deepslate_iron_ore | deepslate_gold_ore | deepslate_redstone_ore | deepslate_lapis_ore | deepslate_diamond_ore | deepslate_emerald_ore | deepslate_cinnabar_ore | deepslate_lead_ore | deepslate_nickel_ore | deepslate_niter_ore | deepslate_silver_ore | deepslate_sulfur_ore | deepslate_tin_ore | deepslate_zinc_ore | deepslate_fluorite_ore | deepslate_osmium_ore | deepslate_uranium_ore)",
 						"expression": "5"
 					}
 				]
