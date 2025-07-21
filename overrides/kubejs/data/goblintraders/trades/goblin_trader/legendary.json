@@ -27,8 +27,7 @@
       "price_multiplier": 0.0,
       "secondary_payment_item": {
         "count": 1,
-        "item": "irons_spellbooks:arcane_debris",
-        "nbt": "{Damage:0}"
+        "item": "irons_spellbooks:arcane_debris"
       }
     },
     {
