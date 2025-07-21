@@ -14,7 +14,6 @@ ServerEvents.recipes(event => {
         Item.of("ars_additions:warp_index"), [
             Item.of("waystones:warp_stone"),
             Item.of("minecraft:echo_shard"),
-            Item.of("minecraft:ender_chest"),
-            Item.of("mekanism:elite_control_circuit")
+            Item.of("minecraft:ender_chest")
     ], 1000, true).id("ars_additions:apparatus/stabilized_warp_index")
 })
