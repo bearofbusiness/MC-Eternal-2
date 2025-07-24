@@ -61,4 +61,13 @@ ServerEvents.recipes(event => {
         I:'cataclysm:ignitium_ingot',
         E:'majruszsdifficulty:ender_pouch',
     })
+
+    //Brimstone Nectar
+    // overly expensive default recipe for this pack
+    event.remove({id: "bosses_of_mass_destruction:brimstone_nectar"})
+    event.shapeless("bosses_of_mass_destruction:brimstone_nectar", [
+        "#forge:ingots/netherite_scrap",
+        Item.of('minecraft:potion', '{Potion:"minecraft:long_regeneration"}'),
+        "minecraft:ghast_tear"
+    ]).id("mce2:bomd_brimstone_nectar")
 })
