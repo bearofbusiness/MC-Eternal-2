@@ -48,6 +48,7 @@ ServerEvents.tags("entity_type", event => {
         "occultism:shub_niggurath_spawn",
         /occultism:wild_hunt_.*/,
         /pneumaticcraft:.*/,
+        "quark:toretoise",
 
         //Non-Living
         // atleast Ars Nouveau is a bit dumb, and can catch nonliving entities :V
