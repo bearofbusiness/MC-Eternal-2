@@ -12,13 +12,21 @@ ServerEvents.tags("entity_type", event => {
         "bosses_of_mass_destruction:lich",
         "bosses_of_mass_destruction:gauntlet",
         "bosses_of_mass_destruction:void_blossom",
+        "bosses_of_mass_destruction:obsidilith",
         "mowziesmobs:ferrous_wroughtnaut",
         "mowziesmobs:frostmaw",
         "mowziesmobs:umvuthi",
         "mowziesmobs:sculptor",
         "masquerader_mod:masquerader",
         "irons_spellbooks:dead_king",
-        "irons_spellbooks:dead_king_corpse"
+        "irons_spellbooks:dead_king_corpse",
+        "botania:doppleganger",
+        "aquamirae:captain_cornelia",
+        "aquamirae:maze_mother",
+        "alexsmobs:void_worm",
+        "alexsmobs:void_worm_part",
+        "alexscaves:forsaken",
+        "alexscaves:hullbreaker"
     ])
 
 
@@ -31,8 +39,10 @@ ServerEvents.tags("entity_type", event => {
         "irons_spellbooks:archevoker",
         "irons_spellbooks:apothecarist",
         "irons_spellbooks:cryomancer",
-        "alexscaves:hullbreaker",
         "alexscaves:tremorzilla",
+        "alexscaves:magnetron",
+        "alexscaves:tremorsaurus",
+        "alexscaves:atlatitan",
         "artifacts:mimic",
         "irons_spellbooks:priest",
         "irons_spellbooks:cultist",
@@ -49,6 +59,11 @@ ServerEvents.tags("entity_type", event => {
         /occultism:wild_hunt_.*/,
         /pneumaticcraft:.*/,
         "quark:toretoise",
+        /mutantmonsters:.*/,
+        /masquerader_mod:.*/,
+        /ars_nouveau:familiar_.*/,
+        /ars_nouveau:.*_weald_walker/,
+        /ars_elemental:.*_familiar/,
 
         //Non-Living
         // atleast Ars Nouveau is a bit dumb, and can catch nonliving entities :V
