@@ -102,7 +102,7 @@
 			y: 5.938775510204081d
 		}
 		{
-			dependency: "6B99D9083276026D"
+			dependency: "7505BE829530541C"
 			height: 1.3d
 			image: "modpack:textures/mc-eternal-gems-comm-gem-10.png"
 			rotation: 0.0d
@@ -862,6 +862,8 @@
 				"Did they ever manage to power this abomination? Was it their undoing? "
 				""
 				"The nature of their disappearance will be debated until more questions can be answered."
+				""
+				"&6&lHint:&r &cThe Harbinger&r seems incomplete, it might require some item from a powerful &4Nether&r foe... maybe it's modeled after it?"
 				" "
 				"&6☠ Difficulty: &4&lHARD"
 				"{image:modpack:textures/2025-03-14_00.36.23.png width:200 height:100 align:center}"
@@ -942,7 +944,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&4The Nether - Progression"
+			subtitle: "{chapter.8.quest.3.subtitle}"
 			tasks: [{
 				id: "49F1A8CD12054ACB"
 				item: {
