@@ -121,12 +121,12 @@
 	shouldraiderbreakdoors = true
 	#Health multiplier for all Guards. [Default: 1.000000, min: 0.100000, max: 5.000000]
 	#Range: 0.1 ~ 5.0
-	guardhealthmult = 1.0
+	guardhealthmult = 3.5
 	#Turn on MineColonies PVP mode (colonies can be destroyed and griefed under certain conditions). [Default: false]
 	pvp_mode = false
 	#minecolonies.config.guarddamagemultiplier.comment [Default: 1.000000, min: 0.100000, max: 15.000000]
 	#Range: 0.1 ~ 15.0
-	guardDamageMultiplier = 1.0
+	guardDamageMultiplier = 5.5
 
 #All permission configuration options
 [permissions]
