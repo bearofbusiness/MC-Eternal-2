@@ -37,7 +37,7 @@ ServerEvents.tags("entity_type", event => {
         "irons_spellbooks:priest",
         "irons_spellbooks:cultist",
         "goblintraders:goblin_trader",
-      "goblintraders:vein_goblin_trader",
+        "goblintraders:vein_goblin_trader",
         "iceandfire:lightning_dragon",
         "iceandfire:fire_dragon",
         "iceandfire:ice_dragon",
@@ -76,7 +76,8 @@ ServerEvents.tags("entity_type", event => {
     // inherits from No Capture
     // because if we don't want something caught, we probably do not want it farmed either.
     event.add("c:spawning_not_supported", [
-        tagNoCapture
+        tagNoCapture,
+        "minecraft:evoker"
     ])
 
     event.add("ars_nouveau:drygmy_blacklist", [
