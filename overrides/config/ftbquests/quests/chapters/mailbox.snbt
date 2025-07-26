@@ -5,21 +5,34 @@
 	group: "12BCDDCCCA65FD77"
 	icon: "mighty_mail:mangrove_mail_box"
 	id: "41A25067DC4A9F95"
-	images: [{
-		height: 10.0d
-		image: "advancementframes:block/board_back"
-		rotation: 0.0d
-		width: 10.0d
-		x: 1.0d
-		y: 3.0d
-	}]
-	order_index: 0
+	images: [
+		{
+			height: 10.0d
+			image: "advancementframes:block/board_back"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.3d
+			image: "modpack:textures/minecraft_title_mailbox.png"
+			rotation: 0.0d
+			width: 8.507462686567164d
+			x: 1.0d
+			y: 7.0d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			can_repeat: true
 			dependencies: ["740DD4098893630E"]
-			description: ["{chapter.1.quest.60.description.1}"]
+			description: [
+				"{chapter.1.quest.60.description.1}"
+				"{image:modpack:textures/opened_letter.png width:115 height:100 align:center}"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -73,7 +86,7 @@
 					type: "command"
 				}
 			]
-			shape: "heart"
+			shape: "pentagon"
 			subtitle: "{chapter.1.quest.60.subtitle}"
 			tasks: [{
 				elapsedTime: 28800L
@@ -87,12 +100,15 @@
 				type: "questsadditions:time"
 			}]
 			title: "{chapter.1.quest.60.title}"
-			x: -2.0d
-			y: 1.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["740DD4098893630E"]
-			description: ["{chapter.1.quest.58.description.1}"]
+			description: [
+				"{chapter.1.quest.58.description.1}"
+				"{image:modpack:textures/opened_letter.png width:115 height:100 align:center}"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -150,7 +166,7 @@
 					type: "item"
 				}
 			]
-			shape: "heart"
+			shape: "pentagon"
 			subtitle: "{chapter.1.quest.58.subtitle}"
 			tasks: [{
 				days: 2
@@ -164,7 +180,7 @@
 				type: "questsadditions:days"
 			}]
 			title: "&6Letter From Mom!"
-			x: -1.0d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -244,7 +260,7 @@
 					type: "command"
 				}
 			]
-			shape: "heart"
+			shape: "pentagon"
 			subtitle: "&4You've got Mail!"
 			tasks: [{
 				advancement: "vampirism:vampire/become_vampire"
@@ -255,10 +271,9 @@
 			}]
 			title: "&4Letter from Gruncle Vlad"
 			x: -2.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
-			can_repeat: true
 			description: ["HI HONEY IT'S GRAMMA YOUR AUNT MADE YOU THIS SWEATER HOPEFULLY IT WILL HELP KEEP YOU WARM WHERE YOU'RE GOING."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -337,14 +352,13 @@
 			shape: "heart"
 			subtitle: "{chapter.1.quest.60.subtitle}"
 			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "5BF5D48A5BC23C93"
-				title: "Visit the Nether"
-				type: "dimension"
+				id: "5E15CE3842AD84D6"
+				item: "minecraft:bedrock"
+				type: "item"
 			}]
 			title: "Letter from Grandma!"
-			x: -1.0d
-			y: 2.0d
+			x: -11.0d
+			y: 4.0d
 		}
 		{
 			can_repeat: true
@@ -407,48 +421,46 @@
 			shape: "heart"
 			subtitle: "{chapter.1.quest.60.subtitle}"
 			tasks: [{
-				dimension: "the_bumblezone:the_bumblezone"
-				id: "5DCC2E2C67279BFA"
-				title: "Visit the Bumblezone"
-				type: "dimension"
+				id: "30496B21C5BFE3B4"
+				item: "minecraft:bedrock"
+				type: "item"
 			}]
 			title: "Letter from Grandma!"
-			x: -2.0d
-			y: 2.0d
+			x: -11.0d
+			y: 5.0d
 		}
 		{
-			can_repeat: true
+			dependencies: ["740DD4098893630E"]
 			description: [
-				"Thanks for signing up for Rat Facts! You now will receive fun daily facts about RATS! >o<"
-				"Did you know that rats are the largest mammal both on the land and in the sea?!"
-				"Would you like to receive a Rat Fact every hour? "
-				"reply: "
-				"{\"text\":\"AAAAAAAAAA\",\"obfuscated\":true} "
-				"to cancel"
+				"&dLetter From Mom!&r I can't believe its been 10 WHOLE DAYS since you started your new adventure! That is so wonderful! "
+				""
+				"I went to the market and picked you up a cute necklace I thought it would suit you!! Hopefully you like it!!"
+				""
+				"&dHugs and kisses - Mom "
+				"{image:modpack:textures/opened_letter.png width:115 height:100 align:center}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
-			icon: "rats:idol_of_ratlantis"
-			id: "07C48D5A4303F87F"
+			icon: "kubejs:mossy_letter"
+			id: "36558CB7A7A5D2DB"
+			incompatible: ["3332943281ADBEF1"]
 			invisible: true
 			optional: true
 			rewards: [
 				{
-					id: "339D3EBD090D56AC"
-					item: {
-						Count: 1
-						id: "rats:rat_papers"
-						tag: { }
-					}
-					type: "item"
+					icon: "create:orange_toolbox"
+					id: "1672991E815731B8"
+					table_id: 6664182306022005570L
+					title: "{chapter.1.quest.58.reward.2.title}"
+					type: "random"
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → YOU HAVE RECIEVED A VERY IMPORTANT AND URGENT LETTER! Open your Quest Book NOW!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
 					console: true
 					icon: "etched:radio"
-					id: "45400B505F330710"
+					id: "064D7537CFC8F666"
 					title: "&n&eYou've got mail!"
 					type: "command"
 				}
@@ -458,25 +470,309 @@
 					console: true
 					elevate_perms: true
 					icon: "kubejs:mossy_letter"
-					id: "1C9841FF83FC91FB"
+					id: "4448B64A29787274"
 					title: "&dYou've got mail!"
 					type: "command"
 				}
+				{
+					amount: 15L
+					currency: "eternalcurrencies:coins"
+					id: "50BC0887AEB9A600"
+					ignore_reward_blocking: true
+					title: "&3Pocket Change"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4F5EE0EB2149A569"
+					item: "artifacts:panic_necklace"
+					type: "item"
+				}
 			]
-			shape: "heart"
+			shape: "pentagon"
 			subtitle: "{chapter.1.quest.60.subtitle}"
 			tasks: [{
-				id: "7AD4522B096A8B97"
-				observe_type: 5
-				timer: 0L
-				title: "Witness a rat!"
-				to_observe: "rats:rat"
-				type: "observation"
+				days: 10
+				icon: "minecraft:red_bed"
+				id: "50DF080BE9915238"
+				type: "questsadditions:days"
 			}]
-			title: "THANK YOU FOR SIGNING UP FOR RAT FACTS"
-			x: -2.0d
+			title: "&6Letter From Mom!"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"&dLetter From Mom!&r I can't believe its been 25 LONG DAYS since you started your new adventure! You are doing amazing! We are all very proud of you, as always!"
+				""
+				"I went to the market and picked you up a cozy pair of slippers, I thought you might like them! "
+				""
+				"&dHugs and kisses - Mom "
+				"{image:modpack:textures/opened_letter.png width:115 height:100 align:center}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:mossy_letter"
+			id: "621F369C844200D6"
+			incompatible: ["3332943281ADBEF1"]
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "7A306BFC51FBA4C0"
+					table_id: 6664182306022005570L
+					title: "{chapter.1.quest.58.reward.2.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "146C7809CEA7BC2F"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "38FC837947EEE185"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+				{
+					amount: 15L
+					currency: "eternalcurrencies:coins"
+					id: "3F1F737B8D28F24A"
+					ignore_reward_blocking: true
+					title: "&3Pocket Change"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4725AF9A0E8EC9FB"
+					item: "artifacts:kitty_slippers"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{chapter.1.quest.60.subtitle}"
+			tasks: [{
+				days: 25
+				icon: "minecraft:red_bed"
+				id: "0CD27A657B7A1CB3"
+				type: "questsadditions:days"
+			}]
+			title: "&6Letter From Mom!"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"&dLetter From Mom!&r I can't believe its been 50 LONG DAYS since you started your new adventure! You are doing amazing! We are all very proud of you, as always!"
+				""
+				"I went to the market and picked you up some sort of special totem, the shopkeeper told me it was capable of protecting its wearer from harm. "
+				"I have been a little worried about you I must confess! Hopefully you never have to use it!"
+				"But like I always say, better safe than sorry!!!"
+				""
+				"&dHugs and kisses - Mom "
+				"{image:modpack:textures/opened_letter.png width:115 height:100 align:center}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:mossy_letter"
+			id: "281E319CBD1DECBE"
+			incompatible: ["3332943281ADBEF1"]
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "320310BDB26C5B7A"
+					table_id: 6664182306022005570L
+					title: "{chapter.1.quest.58.reward.2.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "35AE0A14808F4193"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "546E8AF2AC43C2BF"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+				{
+					amount: 15L
+					currency: "eternalcurrencies:coins"
+					id: "7B039CEB3414546F"
+					ignore_reward_blocking: true
+					title: "&3Pocket Change"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0A29897B65AFA4CB"
+					item: "artifacts:chorus_totem"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{chapter.1.quest.60.subtitle}"
+			tasks: [{
+				days: 50
+				icon: "minecraft:red_bed"
+				id: "583B7250A85BADE2"
+				type: "questsadditions:days"
+			}]
+			title: "&6Letter From Mom!"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"&dLetter From Mom!&r Oh wow! "
+				"EXPERT MODE!? "
+				"ALREADY?! We are SO proud of you! "
+				"Please be careful!! It is very dangerous out there!! "
+				"The Nether is a seriously scary place! But I trust that you can handle it!!"
+				""
+				"Make sure you wear &oweather appropriate clothing&r and upgrade your glider with a &eNether Upgrade&r"
+				""
+				"Also, I have wonderful news! Your uncle has appeared! He survived the dragon attack after all!!"
+				"He claims he was lucky he brought his &dCat Burger&r curio, otherwise he would've been <shake>TOAST!"
+				""
+				"He brought home some treasure from his travels, please pick your favourite item and use it wisely! "
+				"&dXOXO&r - Your very proud mother!!"
+				"{image:modpack:textures/opened_letter.png width:115 height:100 align:center}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:scorched_letter"
+			id: "3731FFBC670F0E3B"
+			incompatible: ["3332943281ADBEF1"]
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "08E8787B7C82A4B8"
+					table_id: 6664182306022005570L
+					title: "{chapter.1.quest.58.reward.2.title}"
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					console: true
+					icon: "etched:radio"
+					id: "47DD182236A8ED78"
+					title: "&n&eYou've got mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					console: true
+					elevate_perms: true
+					icon: "kubejs:mossy_letter"
+					id: "033F0F69CCDC4F72"
+					title: "&dYou've got mail!"
+					type: "command"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "77037CA60B6FF2E5"
+					ignore_reward_blocking: true
+					title: "&3Pocket Change"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "15309DB51D4A7937"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "lavafishing:prometheus_bounty"
+					id: "46A757E425DD62C2"
+					table_id: 1718805351174656688L
+					title: "&6Uncle's Treasure"
+					type: "choice"
+				}
+				{
+					id: "2DEA5D18EF07D7A3"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							AttributeModifiers: [{
+								Amount: -0.002d
+								AttributeName: "generic.movement_speed"
+								Name: "1751425048388"
+								Slot: "chest"
+								UUID: [I;
+									-12561
+									40661
+									214620
+									-81322
+								]
+							}]
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 4s
+							}]
+							HideFlags: 128
+							Trim: {
+								material: "amethyst"
+								pattern: "vex"
+							}
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Handmade by your aunt.\",\"italic\":false}]"
+									"[\"Not the correct size.\"]"
+								]
+								Name: "[\"\",{\"text\":\"Ill-Fitting Sweater\",\"italic\":false,\"color\":\"aqua\"}]"
+								color: 15961002
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{chapter.1.quest.60.subtitle}"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				disable_toast: true
+				icon: "cataclysm:netherite_effigy"
+				id: "284A3E87AC2C9ECD"
+				title: "&cExpert Mode"
+				type: "dimension"
+			}]
+			title: "&6Letter From Mom!"
+			x: 0.0d
 			y: 4.0d
 		}
 	]
-	title: "Mailbox"
+	title: "&6Mailbox"
 }
